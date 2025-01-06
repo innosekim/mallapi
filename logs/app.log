@@ -1,736 +1,182 @@
-2025-01-03 13:29:28.560 INFO  [restartedMain] o.z.m.MallapiApplication - Starting MallapiApplication using Java 17.0.12 with PID 10712 (C:\Users\ktcs\backend\mallapi\build\classes\java\main started by ktcs in C:\Users\ktcs\backend\mallapi)
-2025-01-03 13:29:28.576 INFO  [restartedMain] o.z.m.MallapiApplication - No active profile set, falling back to 1 default profile: "default"
-2025-01-03 13:29:28.635 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-01-03 13:29:28.635 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-01-03 13:29:30.000 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-03 13:29:30.126 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 3 JPA repository interfaces.
-2025-01-03 13:29:31.310 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-01-03 13:29:31.342 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
-2025-01-03 13:29:31.342 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
-2025-01-03 13:29:31.452 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-2025-01-03 13:29:31.452 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2817 ms
-2025-01-03 13:29:31.876 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-03 13:29:32.048 INFO  [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 6.4.10.Final
-2025-01-03 13:29:32.175 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-01-03 13:29:32.818 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-03 13:29:32.882 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
-2025-01-03 13:29:33.133 INFO  [restartedMain] l.log4j2 - 1. Connection opened. {executed in 204ms} 
-2025-01-03 13:29:33.133 INFO  [restartedMain] l.log4j2 - 1. Connection.new Connection returned 
-2025-01-03 13:29:33.133 INFO  [restartedMain] l.log4j2 - 1. Connection.getNetworkTimeout() returned 0
-2025-01-03 13:29:33.133 INFO  [restartedMain] l.log4j2 - 1. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.133 INFO  [restartedMain] l.log4j2 - 1. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.133 INFO  [restartedMain] l.log4j2 - 1. Connection.isValid(1) returned true
-2025-01-03 13:29:33.148 INFO  [restartedMain] l.log4j2 - 1. Connection.getTransactionIsolation() returned 4
-2025-01-03 13:29:33.148 INFO  [restartedMain] c.z.h.p.HikariPool - HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@23270393
-2025-01-03 13:29:33.164 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
-2025-01-03 13:29:33.164 INFO  [restartedMain] l.log4j2 - 1. Connection.getMetaData() returned org.mariadb.jdbc.DatabaseMetaData@4e9d17a8
-2025-01-03 13:29:33.289 INFO  [restartedMain] l.log4j2 - 1. Statement.new Statement returned 
-2025-01-03 13:29:33.289 INFO  [restartedMain] l.log4j2 - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@3eebfc4e
-2025-01-03 13:29:33.289 INFO  [restartedMain] l.log4j2 - 1. SELECT @@character_set_database, @@sql_mode  {executed in 0 ms}
-2025-01-03 13:29:33.289 INFO  [restartedMain] l.log4j2 - 1. ResultSet.new ResultSet returned 
-2025-01-03 13:29:33.289 INFO  [restartedMain] l.log4j2 - 1. Statement.executeQuery(SELECT @@character_set_database, @@sql_mode) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@170e2ccc
-2025-01-03 13:29:33.289 INFO  [HikariPool-1 connection adder] l.log4j2 - 2. Connection opened. {executed in 0ms} 
-2025-01-03 13:29:33.289 INFO  [HikariPool-1 connection adder] l.log4j2 - 2. Connection.new Connection returned 
-2025-01-03 13:29:33.289 INFO  [HikariPool-1 connection adder] l.log4j2 - 2. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.289 INFO  [HikariPool-1 connection adder] l.log4j2 - 2. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.305 INFO  [restartedMain] l.log4j2 - 1. ResultSet.next() returned true
-2025-01-03 13:29:33.306 INFO  [restartedMain] l.log4j2 - 1. ResultSet.getString(1) returned utf8
-2025-01-03 13:29:33.306 INFO  [restartedMain] l.log4j2 - 1. ResultSet.getString(2) returned IGNORE_SPACE,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
-2025-01-03 13:29:33.306 INFO  [restartedMain] l.log4j2 - 1. Statement.close() returned 
-2025-01-03 13:29:33.316 INFO  [HikariPool-1 connection adder] l.log4j2 - 3. Connection opened. {executed in 2ms} 
-2025-01-03 13:29:33.316 INFO  [HikariPool-1 connection adder] l.log4j2 - 3. Connection.new Connection returned 
-2025-01-03 13:29:33.316 INFO  [HikariPool-1 connection adder] l.log4j2 - 3. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.316 INFO  [HikariPool-1 connection adder] l.log4j2 - 3. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.331 INFO  [HikariPool-1 connection adder] l.log4j2 - 4. Connection opened. {executed in 0ms} 
-2025-01-03 13:29:33.331 INFO  [HikariPool-1 connection adder] l.log4j2 - 4. Connection.new Connection returned 
-2025-01-03 13:29:33.331 INFO  [HikariPool-1 connection adder] l.log4j2 - 4. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.331 INFO  [HikariPool-1 connection adder] l.log4j2 - 4. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.331 INFO  [restartedMain] l.log4j2 - 1. Connection.getCatalog() returned malldb
-2025-01-03 13:29:33.347 INFO  [restartedMain] l.log4j2 - 1. Connection.getSchema() returned null
-2025-01-03 13:29:33.348 INFO  [restartedMain] l.log4j2 - 1. Connection.getSchema() returned null
-2025-01-03 13:29:33.349 INFO  [HikariPool-1 connection adder] l.log4j2 - 5. Connection opened. {executed in 0ms} 
-2025-01-03 13:29:33.349 INFO  [restartedMain] l.log4j2 - 1. Connection.getMetaData() returned org.mariadb.jdbc.DatabaseMetaData@5e0d4dab
-2025-01-03 13:29:33.349 INFO  [HikariPool-1 connection adder] l.log4j2 - 5. Connection.new Connection returned 
-2025-01-03 13:29:33.349 INFO  [HikariPool-1 connection adder] l.log4j2 - 5. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.349 INFO  [HikariPool-1 connection adder] l.log4j2 - 5. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.349 INFO  [restartedMain] l.log4j2 - 1. Connection.createClob() returned 
-2025-01-03 13:29:33.349 INFO  [restartedMain] l.log4j2 - 1. Connection.createNClob() returned 
-2025-01-03 13:29:33.349 INFO  [restartedMain] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-03 13:29:33.369 INFO  [HikariPool-1 connection adder] l.log4j2 - 6. Connection opened. {executed in 0ms} 
-2025-01-03 13:29:33.369 INFO  [HikariPool-1 connection adder] l.log4j2 - 6. Connection.new Connection returned 
-2025-01-03 13:29:33.369 INFO  [HikariPool-1 connection adder] l.log4j2 - 6. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.369 INFO  [HikariPool-1 connection adder] l.log4j2 - 6. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.387 INFO  [HikariPool-1 connection adder] l.log4j2 - 7. Connection opened. {executed in 0ms} 
-2025-01-03 13:29:33.387 INFO  [HikariPool-1 connection adder] l.log4j2 - 7. Connection.new Connection returned 
-2025-01-03 13:29:33.387 INFO  [HikariPool-1 connection adder] l.log4j2 - 7. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.387 INFO  [HikariPool-1 connection adder] l.log4j2 - 7. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.406 INFO  [HikariPool-1 connection adder] l.log4j2 - 8. Connection opened. {executed in 0ms} 
-2025-01-03 13:29:33.406 INFO  [HikariPool-1 connection adder] l.log4j2 - 8. Connection.new Connection returned 
-2025-01-03 13:29:33.406 INFO  [HikariPool-1 connection adder] l.log4j2 - 8. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.406 INFO  [HikariPool-1 connection adder] l.log4j2 - 8. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.424 INFO  [HikariPool-1 connection adder] l.log4j2 - 9. Connection opened. {executed in 0ms} 
-2025-01-03 13:29:33.424 INFO  [HikariPool-1 connection adder] l.log4j2 - 9. Connection.new Connection returned 
-2025-01-03 13:29:33.424 INFO  [HikariPool-1 connection adder] l.log4j2 - 9. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.424 INFO  [HikariPool-1 connection adder] l.log4j2 - 9. Connection.getAutoCommit() returned true
-2025-01-03 13:29:33.442 INFO  [HikariPool-1 connection adder] l.log4j2 - 10. Connection opened. {executed in 2ms} 
-2025-01-03 13:29:33.442 INFO  [HikariPool-1 connection adder] l.log4j2 - 10. Connection.new Connection returned 
-2025-01-03 13:29:33.442 INFO  [HikariPool-1 connection adder] l.log4j2 - 10. Connection.isReadOnly() returned false
-2025-01-03 13:29:33.442 INFO  [HikariPool-1 connection adder] l.log4j2 - 10. Connection.getAutoCommit() returned true
-2025-01-03 13:29:34.644 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-03 13:29:34.676 INFO  [restartedMain] l.log4j2 - 1. Connection.isValid(5) returned true
-2025-01-03 13:29:34.676 INFO  [restartedMain] l.log4j2 - 1. Connection.getAutoCommit() returned true
-2025-01-03 13:29:34.676 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
-2025-01-03 13:29:34.676 INFO  [restartedMain] l.log4j2 - 1. Connection.prepareStatement(select table_name from information_schema.TABLES where table_schema=database() and table_type='SEQUENCE') returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@cdb9ecc
-2025-01-03 13:29:34.707 INFO  [restartedMain] l.log4j2 - 1. select table_name from information_schema.TABLES where table_schema=database() and table_type='SEQUENCE'  {executed in 31 ms}
-2025-01-03 13:29:34.707 INFO  [restartedMain] l.log4j2 - 1. ResultSet.new ResultSet returned 
-2025-01-03 13:29:34.707 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@9b4a68c
-2025-01-03 13:29:34.707 INFO  [restartedMain] l.log4j2 - 
-|-----------|
-|table_name |
-|-----------|
-|-----------|
-
-2025-01-03 13:29:34.707 INFO  [restartedMain] l.log4j2 - 1. ResultSet.next() returned false
-2025-01-03 13:29:34.707 INFO  [restartedMain] l.log4j2 - 1. ResultSet.close() returned void
-2025-01-03 13:29:34.707 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.close() returned 
-2025-01-03 13:29:34.723 INFO  [restartedMain] l.log4j2 - 1. Connection.getMetaData() returned org.mariadb.jdbc.DatabaseMetaData@1f2052ec
-2025-01-03 13:29:34.771 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
-2025-01-03 13:29:34.771 INFO  [restartedMain] l.log4j2 - 1. Connection.prepareStatement(select * from `malldb`.`member` where 1=0) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2f8ef84a
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. select * from `malldb`.`member` where 1=0  {executed in 62 ms}
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. ResultSet.new ResultSet returned 
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@242fc0c9
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. ResultSet.getMetaData() returned org.mariadb.jdbc.client.result.ResultSetMetaData@4d7d1f13
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 
-|------|---------|---|-------|
-|email |nickname |pw |social |
-|------|---------|---|-------|
-|------|---------|---|-------|
-
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. ResultSet.close() returned void
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.close() returned 
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. Connection.prepareStatement(select * from `malldb`.`tbl_product` where 1=0) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3a58aba2
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. select * from `malldb`.`tbl_product` where 1=0  {executed in 0 ms}
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. ResultSet.new ResultSet returned 
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4cad8588
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. ResultSet.getMetaData() returned org.mariadb.jdbc.client.result.ResultSetMetaData@49df73c8
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 
-|----|---------|------|------|------|
-|pno |del_flag |pdesc |pname |price |
-|----|---------|------|------|------|
-|----|---------|------|------|------|
-
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. ResultSet.close() returned void
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. PreparedStatement.close() returned 
-2025-01-03 13:29:34.833 INFO  [restartedMain] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-03 13:29:34.849 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-03 13:29:35.225 INFO  [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-03 13:29:36.062 INFO  [restartedMain] o.z.m.u.CustomFileUtil - -------------------------------------
-2025-01-03 13:29:36.062 INFO  [restartedMain] o.z.m.u.CustomFileUtil - C:\Users\ktcs\backend\mallapi\upload
-2025-01-03 13:29:36.251 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-03 13:29:36.502 INFO  [restartedMain] o.z.m.c.CustomSecurityConfig - ---------------------security config---------------------------
-2025-01-03 13:29:36.613 INFO  [restartedMain] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@280abdef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4721d87f, org.springframework.security.web.context.SecurityContextHolderFilter@1bd76244, org.springframework.security.web.header.HeaderWriterFilter@6e062668, org.springframework.web.filter.CorsFilter@4e2ed3a8, org.springframework.security.web.authentication.logout.LogoutFilter@7fd3fc69, org.zerock.mallapi.security.filter.JWTCheckFilter@4a1357f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4cbbf4cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76e8a762, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7da0860, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@793905c1, org.springframework.security.web.session.SessionManagementFilter@7edf6f0, org.springframework.security.web.access.ExceptionTranslationFilter@369f0e67]
-2025-01-03 13:29:37.603 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-01-03 13:29:37.682 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
-2025-01-03 13:29:37.697 INFO  [restartedMain] o.z.m.MallapiApplication - Started MallapiApplication in 10.164 seconds (process running for 12.07)
-2025-01-03 13:58:49.824 INFO  [HikariPool-1 connection adder] l.log4j2 - 11. Connection opened. {executed in 19ms} 
-2025-01-03 13:58:49.822 INFO  [HikariPool-1 connection closer] l.log4j2 - 5. Connection closed. {executed in 16ms} 
-2025-01-03 13:58:49.824 INFO  [HikariPool-1 connection adder] l.log4j2 - 11. Connection.new Connection returned 
-2025-01-03 13:58:49.825 INFO  [HikariPool-1 connection closer] l.log4j2 - 5. Connection.close() returned 
-2025-01-03 13:58:49.825 INFO  [HikariPool-1 connection adder] l.log4j2 - 11. Connection.isReadOnly() returned false
-2025-01-03 13:58:49.825 INFO  [HikariPool-1 connection adder] l.log4j2 - 11. Connection.getAutoCommit() returned true
-2025-01-03 13:58:51.645 INFO  [HikariPool-1 connection closer] l.log4j2 - 7. Connection closed. {executed in 0ms} 
-2025-01-03 13:58:51.645 INFO  [HikariPool-1 connection closer] l.log4j2 - 7. Connection.close() returned 
-2025-01-03 13:58:51.645 INFO  [HikariPool-1 connection adder] l.log4j2 - 12. Connection opened. {executed in 0ms} 
-2025-01-03 13:58:51.645 INFO  [HikariPool-1 connection adder] l.log4j2 - 12. Connection.new Connection returned 
-2025-01-03 13:58:51.645 INFO  [HikariPool-1 connection adder] l.log4j2 - 12. Connection.isReadOnly() returned false
-2025-01-03 13:58:51.645 INFO  [HikariPool-1 connection adder] l.log4j2 - 12. Connection.getAutoCommit() returned true
-2025-01-03 13:58:58.840 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection closed. {executed in 0ms} 
-2025-01-03 13:58:58.840 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection.close() returned 
-2025-01-03 13:58:58.840 INFO  [HikariPool-1 connection adder] l.log4j2 - 13. Connection opened. {executed in 0ms} 
-2025-01-03 13:58:58.840 INFO  [HikariPool-1 connection adder] l.log4j2 - 13. Connection.new Connection returned 
-2025-01-03 13:58:58.840 INFO  [HikariPool-1 connection adder] l.log4j2 - 13. Connection.isReadOnly() returned false
-2025-01-03 13:58:58.840 INFO  [HikariPool-1 connection adder] l.log4j2 - 13. Connection.getAutoCommit() returned true
-2025-01-03 13:58:59.521 INFO  [HikariPool-1 connection closer] l.log4j2 - 2. Connection closed. {executed in 0ms} 
-2025-01-03 13:58:59.521 INFO  [HikariPool-1 connection closer] l.log4j2 - 2. Connection.close() returned 
-2025-01-03 13:58:59.521 INFO  [HikariPool-1 connection adder] l.log4j2 - 14. Connection opened. {executed in 0ms} 
-2025-01-03 13:58:59.521 INFO  [HikariPool-1 connection adder] l.log4j2 - 14. Connection.new Connection returned 
-2025-01-03 13:58:59.521 INFO  [HikariPool-1 connection adder] l.log4j2 - 14. Connection.isReadOnly() returned false
-2025-01-03 13:58:59.521 INFO  [HikariPool-1 connection adder] l.log4j2 - 14. Connection.getAutoCommit() returned true
-2025-01-03 13:59:09.137 INFO  [HikariPool-1 connection closer] l.log4j2 - 6. Connection closed. {executed in 0ms} 
-2025-01-03 13:59:09.137 INFO  [HikariPool-1 connection closer] l.log4j2 - 6. Connection.close() returned 
-2025-01-03 13:59:09.137 INFO  [HikariPool-1 connection adder] l.log4j2 - 15. Connection opened. {executed in 0ms} 
-2025-01-03 13:59:09.137 INFO  [HikariPool-1 connection adder] l.log4j2 - 15. Connection.new Connection returned 
-2025-01-03 13:59:09.137 INFO  [HikariPool-1 connection adder] l.log4j2 - 15. Connection.isReadOnly() returned false
-2025-01-03 13:59:09.137 INFO  [HikariPool-1 connection adder] l.log4j2 - 15. Connection.getAutoCommit() returned true
-2025-01-03 13:59:12.837 INFO  [HikariPool-1 connection closer] l.log4j2 - 8. Connection closed. {executed in 0ms} 
-2025-01-03 13:59:12.837 INFO  [HikariPool-1 connection closer] l.log4j2 - 8. Connection.close() returned 
-2025-01-03 13:59:12.837 INFO  [HikariPool-1 connection adder] l.log4j2 - 16. Connection opened. {executed in 0ms} 
-2025-01-03 13:59:12.837 INFO  [HikariPool-1 connection adder] l.log4j2 - 16. Connection.new Connection returned 
-2025-01-03 13:59:12.837 INFO  [HikariPool-1 connection adder] l.log4j2 - 16. Connection.isReadOnly() returned false
-2025-01-03 13:59:12.837 INFO  [HikariPool-1 connection adder] l.log4j2 - 16. Connection.getAutoCommit() returned true
-2025-01-03 13:59:25.728 INFO  [HikariPool-1 connection closer] l.log4j2 - 9. Connection closed. {executed in 0ms} 
-2025-01-03 13:59:25.728 INFO  [HikariPool-1 connection closer] l.log4j2 - 9. Connection.close() returned 
-2025-01-03 13:59:25.728 INFO  [HikariPool-1 connection adder] l.log4j2 - 17. Connection opened. {executed in 0ms} 
-2025-01-03 13:59:25.728 INFO  [HikariPool-1 connection adder] l.log4j2 - 17. Connection.new Connection returned 
-2025-01-03 13:59:25.728 INFO  [HikariPool-1 connection adder] l.log4j2 - 17. Connection.isReadOnly() returned false
-2025-01-03 13:59:25.728 INFO  [HikariPool-1 connection adder] l.log4j2 - 17. Connection.getAutoCommit() returned true
-2025-01-03 13:59:29.706 INFO  [HikariPool-1 connection closer] l.log4j2 - 3. Connection closed. {executed in 0ms} 
-2025-01-03 13:59:29.706 INFO  [HikariPool-1 connection closer] l.log4j2 - 3. Connection.close() returned 
-2025-01-03 13:59:29.706 INFO  [HikariPool-1 connection adder] l.log4j2 - 18. Connection opened. {executed in 0ms} 
-2025-01-03 13:59:29.706 INFO  [HikariPool-1 connection adder] l.log4j2 - 18. Connection.new Connection returned 
-2025-01-03 13:59:29.706 INFO  [HikariPool-1 connection adder] l.log4j2 - 18. Connection.isReadOnly() returned false
-2025-01-03 13:59:29.706 INFO  [HikariPool-1 connection adder] l.log4j2 - 18. Connection.getAutoCommit() returned true
-2025-01-03 13:59:29.926 INFO  [HikariPool-1 connection closer] l.log4j2 - 4. Connection closed. {executed in 0ms} 
-2025-01-03 13:59:29.926 INFO  [HikariPool-1 connection closer] l.log4j2 - 4. Connection.close() returned 
-2025-01-03 13:59:29.926 INFO  [HikariPool-1 connection adder] l.log4j2 - 19. Connection opened. {executed in 0ms} 
-2025-01-03 13:59:29.926 INFO  [HikariPool-1 connection adder] l.log4j2 - 19. Connection.new Connection returned 
-2025-01-03 13:59:29.926 INFO  [HikariPool-1 connection adder] l.log4j2 - 19. Connection.isReadOnly() returned false
-2025-01-03 13:59:29.926 INFO  [HikariPool-1 connection adder] l.log4j2 - 19. Connection.getAutoCommit() returned true
-2025-01-03 13:59:31.933 INFO  [HikariPool-1 connection closer] l.log4j2 - 1. Connection closed. {executed in 0ms} 
-2025-01-03 13:59:31.933 INFO  [HikariPool-1 connection closer] l.log4j2 - 1. Connection.close() returned 
-2025-01-03 13:59:31.933 INFO  [HikariPool-1 connection adder] l.log4j2 - 20. Connection opened. {executed in 0ms} 
-2025-01-03 13:59:31.933 INFO  [HikariPool-1 connection adder] l.log4j2 - 20. Connection.new Connection returned 
-2025-01-03 13:59:31.933 INFO  [HikariPool-1 connection adder] l.log4j2 - 20. Connection.isReadOnly() returned false
-2025-01-03 13:59:31.933 INFO  [HikariPool-1 connection adder] l.log4j2 - 20. Connection.getAutoCommit() returned true
-2025-01-03 14:28:22.049 INFO  [HikariPool-1 connection closer] l.log4j2 - 13. Connection closed. {executed in 3ms} 
-2025-01-03 14:28:22.051 INFO  [HikariPool-1 connection closer] l.log4j2 - 13. Connection.close() returned 
-2025-01-03 14:28:22.065 INFO  [HikariPool-1 connection adder] l.log4j2 - 21. Connection opened. {executed in 20ms} 
-2025-01-03 14:28:22.066 INFO  [HikariPool-1 connection adder] l.log4j2 - 21. Connection.new Connection returned 
-2025-01-03 14:28:22.066 INFO  [HikariPool-1 connection adder] l.log4j2 - 21. Connection.isReadOnly() returned false
-2025-01-03 14:28:22.066 INFO  [HikariPool-1 connection adder] l.log4j2 - 21. Connection.getAutoCommit() returned true
-2025-01-03 14:28:23.554 INFO  [HikariPool-1 connection closer] l.log4j2 - 12. Connection closed. {executed in 0ms} 
-2025-01-03 14:28:23.554 INFO  [HikariPool-1 connection closer] l.log4j2 - 12. Connection.close() returned 
-2025-01-03 14:28:23.557 INFO  [HikariPool-1 connection adder] l.log4j2 - 22. Connection opened. {executed in 3ms} 
-2025-01-03 14:28:23.557 INFO  [HikariPool-1 connection adder] l.log4j2 - 22. Connection.new Connection returned 
-2025-01-03 14:28:23.557 INFO  [HikariPool-1 connection adder] l.log4j2 - 22. Connection.isReadOnly() returned false
-2025-01-03 14:28:23.557 INFO  [HikariPool-1 connection adder] l.log4j2 - 22. Connection.getAutoCommit() returned true
-2025-01-03 14:28:29.128 INFO  [HikariPool-1 connection closer] l.log4j2 - 16. Connection closed. {executed in 1ms} 
-2025-01-03 14:28:29.128 INFO  [HikariPool-1 connection closer] l.log4j2 - 16. Connection.close() returned 
-2025-01-03 14:28:29.131 INFO  [HikariPool-1 connection adder] l.log4j2 - 23. Connection opened. {executed in 4ms} 
-2025-01-03 14:28:29.131 INFO  [HikariPool-1 connection adder] l.log4j2 - 23. Connection.new Connection returned 
-2025-01-03 14:28:29.131 INFO  [HikariPool-1 connection adder] l.log4j2 - 23. Connection.isReadOnly() returned false
-2025-01-03 14:28:29.131 INFO  [HikariPool-1 connection adder] l.log4j2 - 23. Connection.getAutoCommit() returned true
-2025-01-03 14:28:44.319 INFO  [HikariPool-1 connection closer] l.log4j2 - 17. Connection closed. {executed in 1ms} 
-2025-01-03 14:28:44.319 INFO  [HikariPool-1 connection closer] l.log4j2 - 17. Connection.close() returned 
-2025-01-03 14:28:44.322 INFO  [HikariPool-1 connection adder] l.log4j2 - 24. Connection opened. {executed in 4ms} 
-2025-01-03 14:28:44.322 INFO  [HikariPool-1 connection adder] l.log4j2 - 24. Connection.new Connection returned 
-2025-01-03 14:28:44.322 INFO  [HikariPool-1 connection adder] l.log4j2 - 24. Connection.isReadOnly() returned false
-2025-01-03 14:28:44.322 INFO  [HikariPool-1 connection adder] l.log4j2 - 24. Connection.getAutoCommit() returned true
-2025-01-03 14:28:47.939 INFO  [HikariPool-1 connection closer] l.log4j2 - 11. Connection closed. {executed in 1ms} 
-2025-01-03 14:28:47.939 INFO  [HikariPool-1 connection closer] l.log4j2 - 11. Connection.close() returned 
-2025-01-03 14:28:47.941 INFO  [HikariPool-1 connection adder] l.log4j2 - 25. Connection opened. {executed in 3ms} 
-2025-01-03 14:28:47.945 INFO  [HikariPool-1 connection adder] l.log4j2 - 25. Connection.new Connection returned 
-2025-01-03 14:28:47.945 INFO  [HikariPool-1 connection adder] l.log4j2 - 25. Connection.isReadOnly() returned false
-2025-01-03 14:28:47.945 INFO  [HikariPool-1 connection adder] l.log4j2 - 25. Connection.getAutoCommit() returned true
-2025-01-03 14:28:52.403 INFO  [HikariPool-1 connection closer] l.log4j2 - 15. Connection closed. {executed in 0ms} 
-2025-01-03 14:28:52.403 INFO  [HikariPool-1 connection closer] l.log4j2 - 15. Connection.close() returned 
-2025-01-03 14:28:52.407 INFO  [HikariPool-1 connection adder] l.log4j2 - 26. Connection opened. {executed in 4ms} 
-2025-01-03 14:28:52.407 INFO  [HikariPool-1 connection adder] l.log4j2 - 26. Connection.new Connection returned 
-2025-01-03 14:28:52.407 INFO  [HikariPool-1 connection adder] l.log4j2 - 26. Connection.isReadOnly() returned false
-2025-01-03 14:28:52.407 INFO  [HikariPool-1 connection adder] l.log4j2 - 26. Connection.getAutoCommit() returned true
-2025-01-03 14:28:58.673 INFO  [HikariPool-1 connection closer] l.log4j2 - 14. Connection closed. {executed in 1ms} 
-2025-01-03 14:28:58.673 INFO  [HikariPool-1 connection closer] l.log4j2 - 14. Connection.close() returned 
-2025-01-03 14:28:58.675 INFO  [HikariPool-1 connection adder] l.log4j2 - 27. Connection opened. {executed in 3ms} 
-2025-01-03 14:28:58.675 INFO  [HikariPool-1 connection adder] l.log4j2 - 27. Connection.new Connection returned 
-2025-01-03 14:28:58.675 INFO  [HikariPool-1 connection adder] l.log4j2 - 27. Connection.isReadOnly() returned false
-2025-01-03 14:28:58.675 INFO  [HikariPool-1 connection adder] l.log4j2 - 27. Connection.getAutoCommit() returned true
-2025-01-03 14:29:09.976 INFO  [HikariPool-1 connection closer] l.log4j2 - 19. Connection closed. {executed in 1ms} 
-2025-01-03 14:29:09.976 INFO  [HikariPool-1 connection closer] l.log4j2 - 19. Connection.close() returned 
-2025-01-03 14:29:09.979 INFO  [HikariPool-1 connection adder] l.log4j2 - 28. Connection opened. {executed in 3ms} 
-2025-01-03 14:29:09.979 INFO  [HikariPool-1 connection adder] l.log4j2 - 28. Connection.new Connection returned 
-2025-01-03 14:29:09.979 INFO  [HikariPool-1 connection adder] l.log4j2 - 28. Connection.isReadOnly() returned false
-2025-01-03 14:29:09.979 INFO  [HikariPool-1 connection adder] l.log4j2 - 28. Connection.getAutoCommit() returned true
-2025-01-03 14:29:19.858 INFO  [HikariPool-1 connection closer] l.log4j2 - 18. Connection closed. {executed in 1ms} 
-2025-01-03 14:29:19.858 INFO  [HikariPool-1 connection closer] l.log4j2 - 18. Connection.close() returned 
-2025-01-03 14:29:19.860 INFO  [HikariPool-1 connection adder] l.log4j2 - 29. Connection opened. {executed in 3ms} 
-2025-01-03 14:29:19.860 INFO  [HikariPool-1 connection adder] l.log4j2 - 29. Connection.new Connection returned 
-2025-01-03 14:29:19.860 INFO  [HikariPool-1 connection adder] l.log4j2 - 29. Connection.isReadOnly() returned false
-2025-01-03 14:29:19.860 INFO  [HikariPool-1 connection adder] l.log4j2 - 29. Connection.getAutoCommit() returned true
-2025-01-03 14:29:26.041 INFO  [HikariPool-1 connection closer] l.log4j2 - 20. Connection closed. {executed in 0ms} 
-2025-01-03 14:29:26.042 INFO  [HikariPool-1 connection closer] l.log4j2 - 20. Connection.close() returned 
-2025-01-03 14:29:26.045 INFO  [HikariPool-1 connection adder] l.log4j2 - 30. Connection opened. {executed in 4ms} 
-2025-01-03 14:29:26.045 INFO  [HikariPool-1 connection adder] l.log4j2 - 30. Connection.new Connection returned 
-2025-01-03 14:29:26.045 INFO  [HikariPool-1 connection adder] l.log4j2 - 30. Connection.isReadOnly() returned false
-2025-01-03 14:29:26.045 INFO  [HikariPool-1 connection adder] l.log4j2 - 30. Connection.getAutoCommit() returned true
-2025-01-03 14:58:00.245 INFO  [HikariPool-1 connection closer] l.log4j2 - 23. Connection closed. {executed in 16ms} 
-2025-01-03 14:58:00.245 INFO  [HikariPool-1 connection closer] l.log4j2 - 23. Connection.close() returned 
-2025-01-03 14:58:00.276 INFO  [HikariPool-1 connection adder] l.log4j2 - 31. Connection opened. {executed in 47ms} 
-2025-01-03 14:58:00.276 INFO  [HikariPool-1 connection adder] l.log4j2 - 31. Connection.new Connection returned 
-2025-01-03 14:58:00.276 INFO  [HikariPool-1 connection adder] l.log4j2 - 31. Connection.isReadOnly() returned false
-2025-01-03 14:58:00.276 INFO  [HikariPool-1 connection adder] l.log4j2 - 31. Connection.getAutoCommit() returned true
-2025-01-03 14:58:10.768 INFO  [HikariPool-1 connection closer] l.log4j2 - 22. Connection closed. {executed in 0ms} 
-2025-01-03 14:58:10.768 INFO  [HikariPool-1 connection closer] l.log4j2 - 22. Connection.close() returned 
-2025-01-03 14:58:10.768 INFO  [HikariPool-1 connection adder] l.log4j2 - 32. Connection opened. {executed in 0ms} 
-2025-01-03 14:58:10.768 INFO  [HikariPool-1 connection adder] l.log4j2 - 32. Connection.new Connection returned 
-2025-01-03 14:58:10.768 INFO  [HikariPool-1 connection adder] l.log4j2 - 32. Connection.isReadOnly() returned false
-2025-01-03 14:58:10.768 INFO  [HikariPool-1 connection adder] l.log4j2 - 32. Connection.getAutoCommit() returned true
-2025-01-03 14:58:11.190 INFO  [HikariPool-1 connection closer] l.log4j2 - 24. Connection closed. {executed in 0ms} 
-2025-01-03 14:58:11.190 INFO  [HikariPool-1 connection closer] l.log4j2 - 24. Connection.close() returned 
-2025-01-03 14:58:11.190 INFO  [HikariPool-1 connection adder] l.log4j2 - 33. Connection opened. {executed in 0ms} 
-2025-01-03 14:58:11.190 INFO  [HikariPool-1 connection adder] l.log4j2 - 33. Connection.new Connection returned 
-2025-01-03 14:58:11.190 INFO  [HikariPool-1 connection adder] l.log4j2 - 33. Connection.isReadOnly() returned false
-2025-01-03 14:58:11.190 INFO  [HikariPool-1 connection adder] l.log4j2 - 33. Connection.getAutoCommit() returned true
-2025-01-03 14:58:18.318 INFO  [HikariPool-1 connection closer] l.log4j2 - 21. Connection closed. {executed in 0ms} 
-2025-01-03 14:58:18.318 INFO  [HikariPool-1 connection closer] l.log4j2 - 21. Connection.close() returned 
-2025-01-03 14:58:18.318 INFO  [HikariPool-1 connection adder] l.log4j2 - 34. Connection opened. {executed in 0ms} 
-2025-01-03 14:58:18.318 INFO  [HikariPool-1 connection adder] l.log4j2 - 34. Connection.new Connection returned 
-2025-01-03 14:58:18.318 INFO  [HikariPool-1 connection adder] l.log4j2 - 34. Connection.isReadOnly() returned false
-2025-01-03 14:58:18.318 INFO  [HikariPool-1 connection adder] l.log4j2 - 34. Connection.getAutoCommit() returned true
-2025-01-03 14:58:35.575 INFO  [HikariPool-1 connection closer] l.log4j2 - 25. Connection closed. {executed in 0ms} 
-2025-01-03 14:58:35.575 INFO  [HikariPool-1 connection closer] l.log4j2 - 25. Connection.close() returned 
-2025-01-03 14:58:35.575 INFO  [HikariPool-1 connection adder] l.log4j2 - 35. Connection opened. {executed in 0ms} 
-2025-01-03 14:58:35.575 INFO  [HikariPool-1 connection adder] l.log4j2 - 35. Connection.new Connection returned 
-2025-01-03 14:58:35.575 INFO  [HikariPool-1 connection adder] l.log4j2 - 35. Connection.isReadOnly() returned false
-2025-01-03 14:58:35.575 INFO  [HikariPool-1 connection adder] l.log4j2 - 35. Connection.getAutoCommit() returned true
-2025-01-03 14:58:39.891 INFO  [HikariPool-1 connection closer] l.log4j2 - 27. Connection closed. {executed in 0ms} 
-2025-01-03 14:58:39.891 INFO  [HikariPool-1 connection closer] l.log4j2 - 27. Connection.close() returned 
-2025-01-03 14:58:39.891 INFO  [HikariPool-1 connection adder] l.log4j2 - 36. Connection opened. {executed in 0ms} 
-2025-01-03 14:58:39.891 INFO  [HikariPool-1 connection adder] l.log4j2 - 36. Connection.new Connection returned 
-2025-01-03 14:58:39.891 INFO  [HikariPool-1 connection adder] l.log4j2 - 36. Connection.isReadOnly() returned false
-2025-01-03 14:58:39.891 INFO  [HikariPool-1 connection adder] l.log4j2 - 36. Connection.getAutoCommit() returned true
-2025-01-03 14:58:41.784 INFO  [HikariPool-1 connection closer] l.log4j2 - 26. Connection closed. {executed in 0ms} 
-2025-01-03 14:58:41.784 INFO  [HikariPool-1 connection closer] l.log4j2 - 26. Connection.close() returned 
-2025-01-03 14:58:41.787 INFO  [HikariPool-1 connection adder] l.log4j2 - 37. Connection opened. {executed in 3ms} 
-2025-01-03 14:58:41.787 INFO  [HikariPool-1 connection adder] l.log4j2 - 37. Connection.new Connection returned 
-2025-01-03 14:58:41.787 INFO  [HikariPool-1 connection adder] l.log4j2 - 37. Connection.isReadOnly() returned false
-2025-01-03 14:58:41.787 INFO  [HikariPool-1 connection adder] l.log4j2 - 37. Connection.getAutoCommit() returned true
-2025-01-03 14:58:45.569 INFO  [HikariPool-1 connection closer] l.log4j2 - 30. Connection closed. {executed in 0ms} 
-2025-01-03 14:58:45.569 INFO  [HikariPool-1 connection closer] l.log4j2 - 30. Connection.close() returned 
-2025-01-03 14:58:45.571 INFO  [HikariPool-1 connection adder] l.log4j2 - 38. Connection opened. {executed in 2ms} 
-2025-01-03 14:58:45.571 INFO  [HikariPool-1 connection adder] l.log4j2 - 38. Connection.new Connection returned 
-2025-01-03 14:58:45.571 INFO  [HikariPool-1 connection adder] l.log4j2 - 38. Connection.isReadOnly() returned false
-2025-01-03 14:58:45.571 INFO  [HikariPool-1 connection adder] l.log4j2 - 38. Connection.getAutoCommit() returned true
-2025-01-03 14:58:55.327 INFO  [HikariPool-1 connection closer] l.log4j2 - 29. Connection closed. {executed in 0ms} 
-2025-01-03 14:58:55.327 INFO  [HikariPool-1 connection closer] l.log4j2 - 29. Connection.close() returned 
-2025-01-03 14:58:55.327 INFO  [HikariPool-1 connection adder] l.log4j2 - 39. Connection opened. {executed in 0ms} 
-2025-01-03 14:58:55.327 INFO  [HikariPool-1 connection adder] l.log4j2 - 39. Connection.new Connection returned 
-2025-01-03 14:58:55.327 INFO  [HikariPool-1 connection adder] l.log4j2 - 39. Connection.isReadOnly() returned false
-2025-01-03 14:58:55.327 INFO  [HikariPool-1 connection adder] l.log4j2 - 39. Connection.getAutoCommit() returned true
-2025-01-03 14:59:06.505 INFO  [HikariPool-1 connection closer] l.log4j2 - 28. Connection closed. {executed in 1ms} 
-2025-01-03 14:59:06.506 INFO  [HikariPool-1 connection closer] l.log4j2 - 28. Connection.close() returned 
-2025-01-03 14:59:06.506 INFO  [HikariPool-1 connection adder] l.log4j2 - 40. Connection opened. {executed in 2ms} 
-2025-01-03 14:59:06.506 INFO  [HikariPool-1 connection adder] l.log4j2 - 40. Connection.new Connection returned 
-2025-01-03 14:59:06.506 INFO  [HikariPool-1 connection adder] l.log4j2 - 40. Connection.isReadOnly() returned false
-2025-01-03 14:59:06.506 INFO  [HikariPool-1 connection adder] l.log4j2 - 40. Connection.getAutoCommit() returned true
-2025-01-03 15:27:38.840 INFO  [HikariPool-1 connection closer] l.log4j2 - 33. Connection closed. {executed in 6ms} 
-2025-01-03 15:27:38.843 INFO  [HikariPool-1 connection closer] l.log4j2 - 33. Connection.close() returned 
-2025-01-03 15:27:38.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 41. Connection opened. {executed in 24ms} 
-2025-01-03 15:27:38.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 41. Connection.new Connection returned 
-2025-01-03 15:27:38.859 INFO  [HikariPool-1 connection adder] l.log4j2 - 41. Connection.isReadOnly() returned false
-2025-01-03 15:27:38.859 INFO  [HikariPool-1 connection adder] l.log4j2 - 41. Connection.getAutoCommit() returned true
-2025-01-03 15:27:42.487 INFO  [HikariPool-1 connection closer] l.log4j2 - 34. Connection closed. {executed in 0ms} 
-2025-01-03 15:27:42.488 INFO  [HikariPool-1 connection closer] l.log4j2 - 34. Connection.close() returned 
-2025-01-03 15:27:42.491 INFO  [HikariPool-1 connection adder] l.log4j2 - 42. Connection opened. {executed in 4ms} 
-2025-01-03 15:27:42.491 INFO  [HikariPool-1 connection adder] l.log4j2 - 42. Connection.new Connection returned 
-2025-01-03 15:27:42.491 INFO  [HikariPool-1 connection adder] l.log4j2 - 42. Connection.isReadOnly() returned false
-2025-01-03 15:27:42.491 INFO  [HikariPool-1 connection adder] l.log4j2 - 42. Connection.getAutoCommit() returned true
-2025-01-03 15:27:53.606 INFO  [HikariPool-1 connection closer] l.log4j2 - 31. Connection closed. {executed in 1ms} 
-2025-01-03 15:27:53.606 INFO  [HikariPool-1 connection closer] l.log4j2 - 31. Connection.close() returned 
-2025-01-03 15:27:53.617 INFO  [HikariPool-1 connection adder] l.log4j2 - 43. Connection opened. {executed in 12ms} 
-2025-01-03 15:27:53.617 INFO  [HikariPool-1 connection adder] l.log4j2 - 43. Connection.new Connection returned 
-2025-01-03 15:27:53.617 INFO  [HikariPool-1 connection adder] l.log4j2 - 43. Connection.isReadOnly() returned false
-2025-01-03 15:27:53.617 INFO  [HikariPool-1 connection adder] l.log4j2 - 43. Connection.getAutoCommit() returned true
-2025-01-03 15:27:59.256 INFO  [HikariPool-1 connection closer] l.log4j2 - 37. Connection closed. {executed in 1ms} 
-2025-01-03 15:27:59.256 INFO  [HikariPool-1 connection closer] l.log4j2 - 37. Connection.close() returned 
-2025-01-03 15:27:59.260 INFO  [HikariPool-1 connection adder] l.log4j2 - 44. Connection opened. {executed in 5ms} 
-2025-01-03 15:27:59.260 INFO  [HikariPool-1 connection adder] l.log4j2 - 44. Connection.new Connection returned 
-2025-01-03 15:27:59.260 INFO  [HikariPool-1 connection adder] l.log4j2 - 44. Connection.isReadOnly() returned false
-2025-01-03 15:27:59.260 INFO  [HikariPool-1 connection adder] l.log4j2 - 44. Connection.getAutoCommit() returned true
-2025-01-03 15:28:03.508 INFO  [HikariPool-1 connection closer] l.log4j2 - 32. Connection closed. {executed in 2ms} 
-2025-01-03 15:28:03.508 INFO  [HikariPool-1 connection closer] l.log4j2 - 32. Connection.close() returned 
-2025-01-03 15:28:03.510 INFO  [HikariPool-1 connection adder] l.log4j2 - 45. Connection opened. {executed in 4ms} 
-2025-01-03 15:28:03.510 INFO  [HikariPool-1 connection adder] l.log4j2 - 45. Connection.new Connection returned 
-2025-01-03 15:28:03.510 INFO  [HikariPool-1 connection adder] l.log4j2 - 45. Connection.isReadOnly() returned false
-2025-01-03 15:28:03.510 INFO  [HikariPool-1 connection adder] l.log4j2 - 45. Connection.getAutoCommit() returned true
-2025-01-03 15:28:19.076 INFO  [HikariPool-1 connection closer] l.log4j2 - 35. Connection closed. {executed in 0ms} 
-2025-01-03 15:28:19.076 INFO  [HikariPool-1 connection closer] l.log4j2 - 35. Connection.close() returned 
-2025-01-03 15:28:19.079 INFO  [HikariPool-1 connection adder] l.log4j2 - 46. Connection opened. {executed in 3ms} 
-2025-01-03 15:28:19.080 INFO  [HikariPool-1 connection adder] l.log4j2 - 46. Connection.new Connection returned 
-2025-01-03 15:28:19.080 INFO  [HikariPool-1 connection adder] l.log4j2 - 46. Connection.isReadOnly() returned false
-2025-01-03 15:28:19.080 INFO  [HikariPool-1 connection adder] l.log4j2 - 46. Connection.getAutoCommit() returned true
-2025-01-03 15:28:24.543 INFO  [HikariPool-1 connection closer] l.log4j2 - 39. Connection closed. {executed in 0ms} 
-2025-01-03 15:28:24.544 INFO  [HikariPool-1 connection closer] l.log4j2 - 39. Connection.close() returned 
-2025-01-03 15:28:24.548 INFO  [HikariPool-1 connection adder] l.log4j2 - 47. Connection opened. {executed in 4ms} 
-2025-01-03 15:28:24.548 INFO  [HikariPool-1 connection adder] l.log4j2 - 47. Connection.new Connection returned 
-2025-01-03 15:28:24.548 INFO  [HikariPool-1 connection adder] l.log4j2 - 47. Connection.isReadOnly() returned false
-2025-01-03 15:28:24.548 INFO  [HikariPool-1 connection adder] l.log4j2 - 47. Connection.getAutoCommit() returned true
-2025-01-03 15:28:31.311 INFO  [HikariPool-1 connection closer] l.log4j2 - 40. Connection closed. {executed in 1ms} 
-2025-01-03 15:28:31.311 INFO  [HikariPool-1 connection closer] l.log4j2 - 40. Connection.close() returned 
-2025-01-03 15:28:31.312 INFO  [HikariPool-1 connection adder] l.log4j2 - 48. Connection opened. {executed in 3ms} 
-2025-01-03 15:28:31.313 INFO  [HikariPool-1 connection adder] l.log4j2 - 48. Connection.new Connection returned 
-2025-01-03 15:28:31.313 INFO  [HikariPool-1 connection adder] l.log4j2 - 48. Connection.isReadOnly() returned false
-2025-01-03 15:28:31.313 INFO  [HikariPool-1 connection adder] l.log4j2 - 48. Connection.getAutoCommit() returned true
-2025-01-03 15:28:33.111 INFO  [HikariPool-1 connection closer] l.log4j2 - 36. Connection closed. {executed in 1ms} 
-2025-01-03 15:28:33.111 INFO  [HikariPool-1 connection closer] l.log4j2 - 36. Connection.close() returned 
-2025-01-03 15:28:33.114 INFO  [HikariPool-1 connection adder] l.log4j2 - 49. Connection opened. {executed in 3ms} 
-2025-01-03 15:28:33.114 INFO  [HikariPool-1 connection adder] l.log4j2 - 49. Connection.new Connection returned 
-2025-01-03 15:28:33.114 INFO  [HikariPool-1 connection adder] l.log4j2 - 49. Connection.isReadOnly() returned false
-2025-01-03 15:28:33.114 INFO  [HikariPool-1 connection adder] l.log4j2 - 49. Connection.getAutoCommit() returned true
-2025-01-03 15:28:40.444 INFO  [HikariPool-1 connection closer] l.log4j2 - 38. Connection closed. {executed in 1ms} 
-2025-01-03 15:28:40.445 INFO  [HikariPool-1 connection closer] l.log4j2 - 38. Connection.close() returned 
-2025-01-03 15:28:40.447 INFO  [HikariPool-1 connection adder] l.log4j2 - 50. Connection opened. {executed in 4ms} 
-2025-01-03 15:28:40.447 INFO  [HikariPool-1 connection adder] l.log4j2 - 50. Connection.new Connection returned 
-2025-01-03 15:28:40.447 INFO  [HikariPool-1 connection adder] l.log4j2 - 50. Connection.isReadOnly() returned false
-2025-01-03 15:28:40.447 INFO  [HikariPool-1 connection adder] l.log4j2 - 50. Connection.getAutoCommit() returned true
-2025-01-03 15:56:57.948 INFO  [HikariPool-1 connection closer] l.log4j2 - 42. Connection closed. {executed in 0ms} 
-2025-01-03 15:56:57.948 INFO  [HikariPool-1 connection closer] l.log4j2 - 42. Connection.close() returned 
-2025-01-03 15:56:57.948 INFO  [HikariPool-1 connection adder] l.log4j2 - 51. Connection opened. {executed in 0ms} 
-2025-01-03 15:56:57.948 INFO  [HikariPool-1 connection adder] l.log4j2 - 51. Connection.new Connection returned 
-2025-01-03 15:56:57.948 INFO  [HikariPool-1 connection adder] l.log4j2 - 51. Connection.isReadOnly() returned false
-2025-01-03 15:56:57.948 INFO  [HikariPool-1 connection adder] l.log4j2 - 51. Connection.getAutoCommit() returned true
-2025-01-03 15:57:26.389 INFO  [HikariPool-1 connection closer] l.log4j2 - 41. Connection closed. {executed in 0ms} 
-2025-01-03 15:57:26.389 INFO  [HikariPool-1 connection closer] l.log4j2 - 41. Connection.close() returned 
-2025-01-03 15:57:26.393 INFO  [HikariPool-1 connection adder] l.log4j2 - 52. Connection opened. {executed in 4ms} 
-2025-01-03 15:57:26.393 INFO  [HikariPool-1 connection adder] l.log4j2 - 52. Connection.new Connection returned 
-2025-01-03 15:57:26.393 INFO  [HikariPool-1 connection adder] l.log4j2 - 52. Connection.isReadOnly() returned false
-2025-01-03 15:57:26.393 INFO  [HikariPool-1 connection adder] l.log4j2 - 52. Connection.getAutoCommit() returned true
-2025-01-03 15:57:39.300 INFO  [HikariPool-1 connection closer] l.log4j2 - 45. Connection closed. {executed in 0ms} 
-2025-01-03 15:57:39.300 INFO  [HikariPool-1 connection closer] l.log4j2 - 45. Connection.close() returned 
-2025-01-03 15:57:39.308 INFO  [HikariPool-1 connection adder] l.log4j2 - 53. Connection opened. {executed in 8ms} 
-2025-01-03 15:57:39.308 INFO  [HikariPool-1 connection adder] l.log4j2 - 53. Connection.new Connection returned 
-2025-01-03 15:57:39.308 INFO  [HikariPool-1 connection adder] l.log4j2 - 53. Connection.isReadOnly() returned false
-2025-01-03 15:57:39.308 INFO  [HikariPool-1 connection adder] l.log4j2 - 53. Connection.getAutoCommit() returned true
-2025-01-03 15:57:43.178 INFO  [HikariPool-1 connection closer] l.log4j2 - 44. Connection closed. {executed in 0ms} 
-2025-01-03 15:57:43.178 INFO  [HikariPool-1 connection closer] l.log4j2 - 44. Connection.close() returned 
-2025-01-03 15:57:43.180 INFO  [HikariPool-1 connection adder] l.log4j2 - 54. Connection opened. {executed in 2ms} 
-2025-01-03 15:57:43.180 INFO  [HikariPool-1 connection adder] l.log4j2 - 54. Connection.new Connection returned 
-2025-01-03 15:57:43.180 INFO  [HikariPool-1 connection adder] l.log4j2 - 54. Connection.isReadOnly() returned false
-2025-01-03 15:57:43.180 INFO  [HikariPool-1 connection adder] l.log4j2 - 54. Connection.getAutoCommit() returned true
-2025-01-03 15:57:47.074 INFO  [HikariPool-1 connection closer] l.log4j2 - 43. Connection closed. {executed in 0ms} 
-2025-01-03 15:57:47.074 INFO  [HikariPool-1 connection closer] l.log4j2 - 43. Connection.close() returned 
-2025-01-03 15:57:47.074 INFO  [HikariPool-1 connection adder] l.log4j2 - 55. Connection opened. {executed in 0ms} 
-2025-01-03 15:57:47.074 INFO  [HikariPool-1 connection adder] l.log4j2 - 55. Connection.new Connection returned 
-2025-01-03 15:57:47.074 INFO  [HikariPool-1 connection adder] l.log4j2 - 55. Connection.isReadOnly() returned false
-2025-01-03 15:57:47.074 INFO  [HikariPool-1 connection adder] l.log4j2 - 55. Connection.getAutoCommit() returned true
-2025-01-03 15:57:49.325 INFO  [HikariPool-1 connection closer] l.log4j2 - 47. Connection closed. {executed in 0ms} 
-2025-01-03 15:57:49.325 INFO  [HikariPool-1 connection closer] l.log4j2 - 47. Connection.close() returned 
-2025-01-03 15:57:49.325 INFO  [HikariPool-1 connection adder] l.log4j2 - 56. Connection opened. {executed in 0ms} 
-2025-01-03 15:57:49.325 INFO  [HikariPool-1 connection adder] l.log4j2 - 56. Connection.new Connection returned 
-2025-01-03 15:57:49.325 INFO  [HikariPool-1 connection adder] l.log4j2 - 56. Connection.isReadOnly() returned false
-2025-01-03 15:57:49.325 INFO  [HikariPool-1 connection adder] l.log4j2 - 56. Connection.getAutoCommit() returned true
-2025-01-03 15:57:53.672 INFO  [HikariPool-1 connection closer] l.log4j2 - 48. Connection closed. {executed in 0ms} 
-2025-01-03 15:57:53.672 INFO  [HikariPool-1 connection closer] l.log4j2 - 48. Connection.close() returned 
-2025-01-03 15:57:53.672 INFO  [HikariPool-1 connection adder] l.log4j2 - 57. Connection opened. {executed in 0ms} 
-2025-01-03 15:57:53.672 INFO  [HikariPool-1 connection adder] l.log4j2 - 57. Connection.new Connection returned 
-2025-01-03 15:57:53.672 INFO  [HikariPool-1 connection adder] l.log4j2 - 57. Connection.isReadOnly() returned false
-2025-01-03 15:57:53.672 INFO  [HikariPool-1 connection adder] l.log4j2 - 57. Connection.getAutoCommit() returned true
-2025-01-03 15:58:08.546 INFO  [HikariPool-1 connection closer] l.log4j2 - 46. Connection closed. {executed in 0ms} 
-2025-01-03 15:58:08.546 INFO  [HikariPool-1 connection closer] l.log4j2 - 46. Connection.close() returned 
-2025-01-03 15:58:08.546 INFO  [HikariPool-1 connection adder] l.log4j2 - 58. Connection opened. {executed in 0ms} 
-2025-01-03 15:58:08.546 INFO  [HikariPool-1 connection adder] l.log4j2 - 58. Connection.new Connection returned 
-2025-01-03 15:58:08.546 INFO  [HikariPool-1 connection adder] l.log4j2 - 58. Connection.isReadOnly() returned false
-2025-01-03 15:58:08.546 INFO  [HikariPool-1 connection adder] l.log4j2 - 58. Connection.getAutoCommit() returned true
-2025-01-03 15:58:20.871 INFO  [HikariPool-1 connection closer] l.log4j2 - 50. Connection closed. {executed in 0ms} 
-2025-01-03 15:58:20.871 INFO  [HikariPool-1 connection closer] l.log4j2 - 50. Connection.close() returned 
-2025-01-03 15:58:20.881 INFO  [HikariPool-1 connection adder] l.log4j2 - 59. Connection opened. {executed in 10ms} 
-2025-01-03 15:58:20.881 INFO  [HikariPool-1 connection adder] l.log4j2 - 59. Connection.new Connection returned 
-2025-01-03 15:58:20.881 INFO  [HikariPool-1 connection adder] l.log4j2 - 59. Connection.isReadOnly() returned false
-2025-01-03 15:58:20.881 INFO  [HikariPool-1 connection adder] l.log4j2 - 59. Connection.getAutoCommit() returned true
-2025-01-03 15:58:26.823 INFO  [HikariPool-1 connection closer] l.log4j2 - 49. Connection closed. {executed in 2ms} 
-2025-01-03 15:58:26.823 INFO  [HikariPool-1 connection closer] l.log4j2 - 49. Connection.close() returned 
-2025-01-03 15:58:26.823 INFO  [HikariPool-1 connection adder] l.log4j2 - 60. Connection opened. {executed in 8ms} 
-2025-01-03 15:58:26.823 INFO  [HikariPool-1 connection adder] l.log4j2 - 60. Connection.new Connection returned 
-2025-01-03 15:58:26.823 INFO  [HikariPool-1 connection adder] l.log4j2 - 60. Connection.isReadOnly() returned false
-2025-01-03 15:58:26.823 INFO  [HikariPool-1 connection adder] l.log4j2 - 60. Connection.getAutoCommit() returned true
-2025-01-03 16:26:49.343 INFO  [HikariPool-1 connection closer] l.log4j2 - 51. Connection closed. {executed in 2ms} 
-2025-01-03 16:26:49.344 INFO  [HikariPool-1 connection closer] l.log4j2 - 51. Connection.close() returned 
-2025-01-03 16:26:49.347 INFO  [HikariPool-1 connection adder] l.log4j2 - 61. Connection opened. {executed in 5ms} 
-2025-01-03 16:26:49.347 INFO  [HikariPool-1 connection adder] l.log4j2 - 61. Connection.new Connection returned 
-2025-01-03 16:26:49.347 INFO  [HikariPool-1 connection adder] l.log4j2 - 61. Connection.isReadOnly() returned false
-2025-01-03 16:26:49.347 INFO  [HikariPool-1 connection adder] l.log4j2 - 61. Connection.getAutoCommit() returned true
-2025-01-03 16:26:56.450 INFO  [HikariPool-1 connection closer] l.log4j2 - 53. Connection closed. {executed in 16ms} 
-2025-01-03 16:26:56.450 INFO  [HikariPool-1 connection closer] l.log4j2 - 53. Connection.close() returned 
-2025-01-03 16:26:56.450 INFO  [HikariPool-1 connection adder] l.log4j2 - 62. Connection opened. {executed in 16ms} 
-2025-01-03 16:26:56.450 INFO  [HikariPool-1 connection adder] l.log4j2 - 62. Connection.new Connection returned 
-2025-01-03 16:26:56.450 INFO  [HikariPool-1 connection adder] l.log4j2 - 62. Connection.isReadOnly() returned false
-2025-01-03 16:26:56.450 INFO  [HikariPool-1 connection adder] l.log4j2 - 62. Connection.getAutoCommit() returned true
-2025-01-03 16:27:23.037 INFO  [HikariPool-1 connection closer] l.log4j2 - 52. Connection closed. {executed in 0ms} 
-2025-01-03 16:27:23.037 INFO  [HikariPool-1 connection closer] l.log4j2 - 52. Connection.close() returned 
-2025-01-03 16:27:23.037 INFO  [HikariPool-1 connection adder] l.log4j2 - 63. Connection opened. {executed in 0ms} 
-2025-01-03 16:27:23.037 INFO  [HikariPool-1 connection adder] l.log4j2 - 63. Connection.new Connection returned 
-2025-01-03 16:27:23.037 INFO  [HikariPool-1 connection adder] l.log4j2 - 63. Connection.isReadOnly() returned false
-2025-01-03 16:27:23.037 INFO  [HikariPool-1 connection adder] l.log4j2 - 63. Connection.getAutoCommit() returned true
-2025-01-03 16:27:31.877 INFO  [HikariPool-1 connection closer] l.log4j2 - 54. Connection closed. {executed in 0ms} 
-2025-01-03 16:27:31.877 INFO  [HikariPool-1 connection closer] l.log4j2 - 54. Connection.close() returned 
-2025-01-03 16:27:31.885 INFO  [HikariPool-1 connection adder] l.log4j2 - 64. Connection opened. {executed in 8ms} 
-2025-01-03 16:27:31.885 INFO  [HikariPool-1 connection adder] l.log4j2 - 64. Connection.new Connection returned 
-2025-01-03 16:27:31.885 INFO  [HikariPool-1 connection adder] l.log4j2 - 64. Connection.isReadOnly() returned false
-2025-01-03 16:27:31.885 INFO  [HikariPool-1 connection adder] l.log4j2 - 64. Connection.getAutoCommit() returned true
-2025-01-03 16:27:35.523 INFO  [HikariPool-1 connection closer] l.log4j2 - 57. Connection closed. {executed in 0ms} 
-2025-01-03 16:27:35.523 INFO  [HikariPool-1 connection closer] l.log4j2 - 57. Connection.close() returned 
-2025-01-03 16:27:35.532 INFO  [HikariPool-1 connection adder] l.log4j2 - 65. Connection opened. {executed in 9ms} 
-2025-01-03 16:27:35.532 INFO  [HikariPool-1 connection adder] l.log4j2 - 65. Connection.new Connection returned 
-2025-01-03 16:27:35.532 INFO  [HikariPool-1 connection adder] l.log4j2 - 65. Connection.isReadOnly() returned false
-2025-01-03 16:27:35.532 INFO  [HikariPool-1 connection adder] l.log4j2 - 65. Connection.getAutoCommit() returned true
-2025-01-03 16:27:35.900 INFO  [HikariPool-1 connection closer] l.log4j2 - 55. Connection closed. {executed in 0ms} 
-2025-01-03 16:27:35.900 INFO  [HikariPool-1 connection closer] l.log4j2 - 55. Connection.close() returned 
-2025-01-03 16:27:35.900 INFO  [HikariPool-1 connection adder] l.log4j2 - 66. Connection opened. {executed in 0ms} 
-2025-01-03 16:27:35.900 INFO  [HikariPool-1 connection adder] l.log4j2 - 66. Connection.new Connection returned 
-2025-01-03 16:27:35.900 INFO  [HikariPool-1 connection adder] l.log4j2 - 66. Connection.isReadOnly() returned false
-2025-01-03 16:27:35.900 INFO  [HikariPool-1 connection adder] l.log4j2 - 66. Connection.getAutoCommit() returned true
-2025-01-03 16:27:42.704 INFO  [HikariPool-1 connection closer] l.log4j2 - 56. Connection closed. {executed in 0ms} 
-2025-01-03 16:27:42.704 INFO  [HikariPool-1 connection closer] l.log4j2 - 56. Connection.close() returned 
-2025-01-03 16:27:42.704 INFO  [HikariPool-1 connection adder] l.log4j2 - 67. Connection opened. {executed in 0ms} 
-2025-01-03 16:27:42.704 INFO  [HikariPool-1 connection adder] l.log4j2 - 67. Connection.new Connection returned 
-2025-01-03 16:27:42.704 INFO  [HikariPool-1 connection adder] l.log4j2 - 67. Connection.isReadOnly() returned false
-2025-01-03 16:27:42.704 INFO  [HikariPool-1 connection adder] l.log4j2 - 67. Connection.getAutoCommit() returned true
-2025-01-03 16:27:48.899 INFO  [HikariPool-1 connection closer] l.log4j2 - 59. Connection closed. {executed in 0ms} 
-2025-01-03 16:27:48.899 INFO  [HikariPool-1 connection closer] l.log4j2 - 59. Connection.close() returned 
-2025-01-03 16:27:48.899 INFO  [HikariPool-1 connection adder] l.log4j2 - 68. Connection opened. {executed in 0ms} 
-2025-01-03 16:27:48.899 INFO  [HikariPool-1 connection adder] l.log4j2 - 68. Connection.new Connection returned 
-2025-01-03 16:27:48.899 INFO  [HikariPool-1 connection adder] l.log4j2 - 68. Connection.isReadOnly() returned false
-2025-01-03 16:27:48.899 INFO  [HikariPool-1 connection adder] l.log4j2 - 68. Connection.getAutoCommit() returned true
-2025-01-03 16:27:54.440 INFO  [HikariPool-1 connection closer] l.log4j2 - 58. Connection closed. {executed in 0ms} 
-2025-01-03 16:27:54.440 INFO  [HikariPool-1 connection closer] l.log4j2 - 58. Connection.close() returned 
-2025-01-03 16:27:54.440 INFO  [HikariPool-1 connection adder] l.log4j2 - 69. Connection opened. {executed in 0ms} 
-2025-01-03 16:27:54.440 INFO  [HikariPool-1 connection adder] l.log4j2 - 69. Connection.new Connection returned 
-2025-01-03 16:27:54.440 INFO  [HikariPool-1 connection adder] l.log4j2 - 69. Connection.isReadOnly() returned false
-2025-01-03 16:27:54.440 INFO  [HikariPool-1 connection adder] l.log4j2 - 69. Connection.getAutoCommit() returned true
-2025-01-03 16:27:57.802 INFO  [HikariPool-1 connection closer] l.log4j2 - 60. Connection closed. {executed in 0ms} 
-2025-01-03 16:27:57.802 INFO  [HikariPool-1 connection closer] l.log4j2 - 60. Connection.close() returned 
-2025-01-03 16:27:57.805 INFO  [HikariPool-1 connection adder] l.log4j2 - 70. Connection opened. {executed in 3ms} 
-2025-01-03 16:27:57.805 INFO  [HikariPool-1 connection adder] l.log4j2 - 70. Connection.new Connection returned 
-2025-01-03 16:27:57.805 INFO  [HikariPool-1 connection adder] l.log4j2 - 70. Connection.isReadOnly() returned false
-2025-01-03 16:27:57.805 INFO  [HikariPool-1 connection adder] l.log4j2 - 70. Connection.getAutoCommit() returned true
-2025-01-03 16:56:35.694 INFO  [HikariPool-1 connection closer] l.log4j2 - 61. Connection closed. {executed in 0ms} 
-2025-01-03 16:56:35.697 INFO  [HikariPool-1 connection closer] l.log4j2 - 61. Connection.close() returned 
-2025-01-03 16:56:35.704 INFO  [HikariPool-1 connection adder] l.log4j2 - 71. Connection opened. {executed in 10ms} 
-2025-01-03 16:56:35.704 INFO  [HikariPool-1 connection adder] l.log4j2 - 71. Connection.new Connection returned 
-2025-01-03 16:56:35.704 INFO  [HikariPool-1 connection adder] l.log4j2 - 71. Connection.isReadOnly() returned false
-2025-01-03 16:56:35.704 INFO  [HikariPool-1 connection adder] l.log4j2 - 71. Connection.getAutoCommit() returned true
-2025-01-03 16:56:40.493 INFO  [HikariPool-1 connection closer] l.log4j2 - 62. Connection closed. {executed in 0ms} 
-2025-01-03 16:56:40.493 INFO  [HikariPool-1 connection closer] l.log4j2 - 62. Connection.close() returned 
-2025-01-03 16:56:40.493 INFO  [HikariPool-1 connection adder] l.log4j2 - 72. Connection opened. {executed in 0ms} 
-2025-01-03 16:56:40.493 INFO  [HikariPool-1 connection adder] l.log4j2 - 72. Connection.new Connection returned 
-2025-01-03 16:56:40.493 INFO  [HikariPool-1 connection adder] l.log4j2 - 72. Connection.isReadOnly() returned false
-2025-01-03 16:56:40.493 INFO  [HikariPool-1 connection adder] l.log4j2 - 72. Connection.getAutoCommit() returned true
-2025-01-03 16:56:57.190 INFO  [HikariPool-1 connection closer] l.log4j2 - 63. Connection closed. {executed in 0ms} 
-2025-01-03 16:56:57.190 INFO  [HikariPool-1 connection closer] l.log4j2 - 63. Connection.close() returned 
-2025-01-03 16:56:57.190 INFO  [HikariPool-1 connection adder] l.log4j2 - 73. Connection opened. {executed in 0ms} 
-2025-01-03 16:56:57.190 INFO  [HikariPool-1 connection adder] l.log4j2 - 73. Connection.new Connection returned 
-2025-01-03 16:56:57.190 INFO  [HikariPool-1 connection adder] l.log4j2 - 73. Connection.isReadOnly() returned false
-2025-01-03 16:56:57.190 INFO  [HikariPool-1 connection adder] l.log4j2 - 73. Connection.getAutoCommit() returned true
-2025-01-03 16:57:15.844 INFO  [HikariPool-1 connection closer] l.log4j2 - 66. Connection closed. {executed in 0ms} 
-2025-01-03 16:57:15.844 INFO  [HikariPool-1 connection closer] l.log4j2 - 66. Connection.close() returned 
-2025-01-03 16:57:15.844 INFO  [HikariPool-1 connection adder] l.log4j2 - 74. Connection opened. {executed in 0ms} 
-2025-01-03 16:57:15.844 INFO  [HikariPool-1 connection adder] l.log4j2 - 74. Connection.new Connection returned 
-2025-01-03 16:57:15.844 INFO  [HikariPool-1 connection adder] l.log4j2 - 74. Connection.isReadOnly() returned false
-2025-01-03 16:57:15.844 INFO  [HikariPool-1 connection adder] l.log4j2 - 74. Connection.getAutoCommit() returned true
-2025-01-03 16:57:20.363 INFO  [HikariPool-1 connection closer] l.log4j2 - 64. Connection closed. {executed in 0ms} 
-2025-01-03 16:57:20.363 INFO  [HikariPool-1 connection closer] l.log4j2 - 64. Connection.close() returned 
-2025-01-03 16:57:20.363 INFO  [HikariPool-1 connection adder] l.log4j2 - 75. Connection opened. {executed in 0ms} 
-2025-01-03 16:57:20.363 INFO  [HikariPool-1 connection adder] l.log4j2 - 75. Connection.new Connection returned 
-2025-01-03 16:57:20.363 INFO  [HikariPool-1 connection adder] l.log4j2 - 75. Connection.isReadOnly() returned false
-2025-01-03 16:57:20.363 INFO  [HikariPool-1 connection adder] l.log4j2 - 75. Connection.getAutoCommit() returned true
-2025-01-03 16:57:21.425 INFO  [HikariPool-1 connection closer] l.log4j2 - 67. Connection closed. {executed in 0ms} 
-2025-01-03 16:57:21.425 INFO  [HikariPool-1 connection closer] l.log4j2 - 67. Connection.close() returned 
-2025-01-03 16:57:21.425 INFO  [HikariPool-1 connection adder] l.log4j2 - 76. Connection opened. {executed in 0ms} 
-2025-01-03 16:57:21.425 INFO  [HikariPool-1 connection adder] l.log4j2 - 76. Connection.new Connection returned 
-2025-01-03 16:57:21.425 INFO  [HikariPool-1 connection adder] l.log4j2 - 76. Connection.isReadOnly() returned false
-2025-01-03 16:57:21.425 INFO  [HikariPool-1 connection adder] l.log4j2 - 76. Connection.getAutoCommit() returned true
-2025-01-03 16:57:25.945 INFO  [HikariPool-1 connection closer] l.log4j2 - 65. Connection closed. {executed in 0ms} 
-2025-01-03 16:57:25.948 INFO  [HikariPool-1 connection adder] l.log4j2 - 77. Connection opened. {executed in 3ms} 
-2025-01-03 16:57:25.952 INFO  [HikariPool-1 connection closer] l.log4j2 - 65. Connection.close() returned 
-2025-01-03 16:57:25.952 INFO  [HikariPool-1 connection adder] l.log4j2 - 77. Connection.new Connection returned 
-2025-01-03 16:57:25.952 INFO  [HikariPool-1 connection adder] l.log4j2 - 77. Connection.isReadOnly() returned false
-2025-01-03 16:57:25.952 INFO  [HikariPool-1 connection adder] l.log4j2 - 77. Connection.getAutoCommit() returned true
-2025-01-03 16:57:39.796 INFO  [HikariPool-1 connection closer] l.log4j2 - 68. Connection closed. {executed in 0ms} 
-2025-01-03 16:57:39.796 INFO  [HikariPool-1 connection closer] l.log4j2 - 68. Connection.close() returned 
-2025-01-03 16:57:39.796 INFO  [HikariPool-1 connection adder] l.log4j2 - 78. Connection opened. {executed in 0ms} 
-2025-01-03 16:57:39.796 INFO  [HikariPool-1 connection adder] l.log4j2 - 78. Connection.new Connection returned 
-2025-01-03 16:57:39.796 INFO  [HikariPool-1 connection adder] l.log4j2 - 78. Connection.isReadOnly() returned false
-2025-01-03 16:57:39.796 INFO  [HikariPool-1 connection adder] l.log4j2 - 78. Connection.getAutoCommit() returned true
-2025-01-03 16:57:42.814 INFO  [HikariPool-1 connection closer] l.log4j2 - 69. Connection closed. {executed in 0ms} 
-2025-01-03 16:57:42.814 INFO  [HikariPool-1 connection closer] l.log4j2 - 69. Connection.close() returned 
-2025-01-03 16:57:42.819 INFO  [HikariPool-1 connection adder] l.log4j2 - 79. Connection opened. {executed in 5ms} 
-2025-01-03 16:57:42.819 INFO  [HikariPool-1 connection adder] l.log4j2 - 79. Connection.new Connection returned 
-2025-01-03 16:57:42.819 INFO  [HikariPool-1 connection adder] l.log4j2 - 79. Connection.isReadOnly() returned false
-2025-01-03 16:57:42.819 INFO  [HikariPool-1 connection adder] l.log4j2 - 79. Connection.getAutoCommit() returned true
-2025-01-03 16:57:56.259 INFO  [HikariPool-1 connection closer] l.log4j2 - 70. Connection closed. {executed in 0ms} 
-2025-01-03 16:57:56.259 INFO  [HikariPool-1 connection closer] l.log4j2 - 70. Connection.close() returned 
-2025-01-03 16:57:56.259 INFO  [HikariPool-1 connection adder] l.log4j2 - 80. Connection opened. {executed in 0ms} 
-2025-01-03 16:57:56.259 INFO  [HikariPool-1 connection adder] l.log4j2 - 80. Connection.new Connection returned 
-2025-01-03 16:57:56.268 INFO  [HikariPool-1 connection adder] l.log4j2 - 80. Connection.isReadOnly() returned false
-2025-01-03 16:57:56.268 INFO  [HikariPool-1 connection adder] l.log4j2 - 80. Connection.getAutoCommit() returned true
-2025-01-03 17:26:22.322 INFO  [HikariPool-1 connection closer] l.log4j2 - 73. Connection closed. {executed in 0ms} 
-2025-01-03 17:26:22.322 INFO  [HikariPool-1 connection closer] l.log4j2 - 73. Connection.close() returned 
-2025-01-03 17:26:22.329 INFO  [HikariPool-1 connection adder] l.log4j2 - 81. Connection opened. {executed in 7ms} 
-2025-01-03 17:26:22.329 INFO  [HikariPool-1 connection adder] l.log4j2 - 81. Connection.new Connection returned 
-2025-01-03 17:26:22.329 INFO  [HikariPool-1 connection adder] l.log4j2 - 81. Connection.isReadOnly() returned false
-2025-01-03 17:26:22.329 INFO  [HikariPool-1 connection adder] l.log4j2 - 81. Connection.getAutoCommit() returned true
-2025-01-03 17:26:24.190 INFO  [HikariPool-1 connection closer] l.log4j2 - 71. Connection closed. {executed in 0ms} 
-2025-01-03 17:26:24.190 INFO  [HikariPool-1 connection closer] l.log4j2 - 71. Connection.close() returned 
-2025-01-03 17:26:24.199 INFO  [HikariPool-1 connection adder] l.log4j2 - 82. Connection opened. {executed in 9ms} 
-2025-01-03 17:26:24.199 INFO  [HikariPool-1 connection adder] l.log4j2 - 82. Connection.new Connection returned 
-2025-01-03 17:26:24.199 INFO  [HikariPool-1 connection adder] l.log4j2 - 82. Connection.isReadOnly() returned false
-2025-01-03 17:26:24.199 INFO  [HikariPool-1 connection adder] l.log4j2 - 82. Connection.getAutoCommit() returned true
-2025-01-03 17:26:34.008 INFO  [HikariPool-1 connection closer] l.log4j2 - 72. Connection closed. {executed in 0ms} 
-2025-01-03 17:26:34.008 INFO  [HikariPool-1 connection closer] l.log4j2 - 72. Connection.close() returned 
-2025-01-03 17:26:34.012 INFO  [HikariPool-1 connection adder] l.log4j2 - 83. Connection opened. {executed in 4ms} 
-2025-01-03 17:26:34.012 INFO  [HikariPool-1 connection adder] l.log4j2 - 83. Connection.new Connection returned 
-2025-01-03 17:26:34.012 INFO  [HikariPool-1 connection adder] l.log4j2 - 83. Connection.isReadOnly() returned false
-2025-01-03 17:26:34.012 INFO  [HikariPool-1 connection adder] l.log4j2 - 83. Connection.getAutoCommit() returned true
-2025-01-03 17:26:59.364 INFO  [HikariPool-1 connection closer] l.log4j2 - 77. Connection closed. {executed in 0ms} 
-2025-01-03 17:26:59.364 INFO  [HikariPool-1 connection closer] l.log4j2 - 77. Connection.close() returned 
-2025-01-03 17:26:59.380 INFO  [HikariPool-1 connection adder] l.log4j2 - 84. Connection opened. {executed in 16ms} 
-2025-01-03 17:26:59.380 INFO  [HikariPool-1 connection adder] l.log4j2 - 84. Connection.new Connection returned 
-2025-01-03 17:26:59.380 INFO  [HikariPool-1 connection adder] l.log4j2 - 84. Connection.isReadOnly() returned false
-2025-01-03 17:26:59.380 INFO  [HikariPool-1 connection adder] l.log4j2 - 84. Connection.getAutoCommit() returned true
-2025-01-03 17:27:06.119 INFO  [HikariPool-1 connection closer] l.log4j2 - 74. Connection closed. {executed in 0ms} 
-2025-01-03 17:27:06.119 INFO  [HikariPool-1 connection closer] l.log4j2 - 74. Connection.close() returned 
-2025-01-03 17:27:06.119 INFO  [HikariPool-1 connection adder] l.log4j2 - 85. Connection opened. {executed in 0ms} 
-2025-01-03 17:27:06.119 INFO  [HikariPool-1 connection adder] l.log4j2 - 85. Connection.new Connection returned 
-2025-01-03 17:27:06.119 INFO  [HikariPool-1 connection adder] l.log4j2 - 85. Connection.isReadOnly() returned false
-2025-01-03 17:27:06.119 INFO  [HikariPool-1 connection adder] l.log4j2 - 85. Connection.getAutoCommit() returned true
-2025-01-03 17:27:07.494 INFO  [HikariPool-1 connection closer] l.log4j2 - 76. Connection closed. {executed in 0ms} 
-2025-01-03 17:27:07.494 INFO  [HikariPool-1 connection closer] l.log4j2 - 76. Connection.close() returned 
-2025-01-03 17:27:07.494 INFO  [HikariPool-1 connection adder] l.log4j2 - 86. Connection opened. {executed in 0ms} 
-2025-01-03 17:27:07.494 INFO  [HikariPool-1 connection adder] l.log4j2 - 86. Connection.new Connection returned 
-2025-01-03 17:27:07.494 INFO  [HikariPool-1 connection adder] l.log4j2 - 86. Connection.isReadOnly() returned false
-2025-01-03 17:27:07.494 INFO  [HikariPool-1 connection adder] l.log4j2 - 86. Connection.getAutoCommit() returned true
-2025-01-03 17:27:09.625 INFO  [HikariPool-1 connection closer] l.log4j2 - 78. Connection closed. {executed in 0ms} 
-2025-01-03 17:27:09.625 INFO  [HikariPool-1 connection closer] l.log4j2 - 78. Connection.close() returned 
-2025-01-03 17:27:09.625 INFO  [HikariPool-1 connection adder] l.log4j2 - 87. Connection opened. {executed in 0ms} 
-2025-01-03 17:27:09.625 INFO  [HikariPool-1 connection adder] l.log4j2 - 87. Connection.new Connection returned 
-2025-01-03 17:27:09.625 INFO  [HikariPool-1 connection adder] l.log4j2 - 87. Connection.isReadOnly() returned false
-2025-01-03 17:27:09.625 INFO  [HikariPool-1 connection adder] l.log4j2 - 87. Connection.getAutoCommit() returned true
-2025-01-03 17:27:12.378 INFO  [HikariPool-1 connection closer] l.log4j2 - 79. Connection closed. {executed in 0ms} 
-2025-01-03 17:27:12.378 INFO  [HikariPool-1 connection closer] l.log4j2 - 79. Connection.close() returned 
-2025-01-03 17:27:12.378 INFO  [HikariPool-1 connection adder] l.log4j2 - 88. Connection opened. {executed in 0ms} 
-2025-01-03 17:27:12.378 INFO  [HikariPool-1 connection adder] l.log4j2 - 88. Connection.new Connection returned 
-2025-01-03 17:27:12.378 INFO  [HikariPool-1 connection adder] l.log4j2 - 88. Connection.isReadOnly() returned false
-2025-01-03 17:27:12.378 INFO  [HikariPool-1 connection adder] l.log4j2 - 88. Connection.getAutoCommit() returned true
-2025-01-03 17:27:19.959 INFO  [HikariPool-1 connection closer] l.log4j2 - 75. Connection closed. {executed in 0ms} 
-2025-01-03 17:27:19.959 INFO  [HikariPool-1 connection closer] l.log4j2 - 75. Connection.close() returned 
-2025-01-03 17:27:19.959 INFO  [HikariPool-1 connection adder] l.log4j2 - 89. Connection opened. {executed in 0ms} 
-2025-01-03 17:27:19.959 INFO  [HikariPool-1 connection adder] l.log4j2 - 89. Connection.new Connection returned 
-2025-01-03 17:27:19.959 INFO  [HikariPool-1 connection adder] l.log4j2 - 89. Connection.isReadOnly() returned false
-2025-01-03 17:27:19.959 INFO  [HikariPool-1 connection adder] l.log4j2 - 89. Connection.getAutoCommit() returned true
-2025-01-03 17:27:26.993 INFO  [HikariPool-1 connection closer] l.log4j2 - 80. Connection closed. {executed in 0ms} 
-2025-01-03 17:27:26.993 INFO  [HikariPool-1 connection closer] l.log4j2 - 80. Connection.close() returned 
-2025-01-03 17:27:26.993 INFO  [HikariPool-1 connection adder] l.log4j2 - 90. Connection opened. {executed in 0ms} 
-2025-01-03 17:27:26.993 INFO  [HikariPool-1 connection adder] l.log4j2 - 90. Connection.new Connection returned 
-2025-01-03 17:27:26.993 INFO  [HikariPool-1 connection adder] l.log4j2 - 90. Connection.isReadOnly() returned false
-2025-01-03 17:27:26.993 INFO  [HikariPool-1 connection adder] l.log4j2 - 90. Connection.getAutoCommit() returned true
-2025-01-03 17:55:44.843 INFO  [HikariPool-1 connection closer] l.log4j2 - 82. Connection closed. {executed in 0ms} 
-2025-01-03 17:55:44.843 INFO  [HikariPool-1 connection closer] l.log4j2 - 82. Connection.close() returned 
-2025-01-03 17:55:44.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 91. Connection opened. {executed in 15ms} 
-2025-01-03 17:55:44.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 91. Connection.new Connection returned 
-2025-01-03 17:55:44.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 91. Connection.isReadOnly() returned false
-2025-01-03 17:55:44.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 91. Connection.getAutoCommit() returned true
-2025-01-03 17:55:51.943 INFO  [HikariPool-1 connection closer] l.log4j2 - 81. Connection closed. {executed in 0ms} 
-2025-01-03 17:55:51.943 INFO  [HikariPool-1 connection closer] l.log4j2 - 81. Connection.close() returned 
-2025-01-03 17:55:51.943 INFO  [HikariPool-1 connection adder] l.log4j2 - 92. Connection opened. {executed in 0ms} 
-2025-01-03 17:55:51.943 INFO  [HikariPool-1 connection adder] l.log4j2 - 92. Connection.new Connection returned 
-2025-01-03 17:55:51.943 INFO  [HikariPool-1 connection adder] l.log4j2 - 92. Connection.isReadOnly() returned false
-2025-01-03 17:55:51.943 INFO  [HikariPool-1 connection adder] l.log4j2 - 92. Connection.getAutoCommit() returned true
-2025-01-03 17:56:33.350 INFO  [HikariPool-1 connection closer] l.log4j2 - 83. Connection closed. {executed in 0ms} 
-2025-01-03 17:56:33.350 INFO  [HikariPool-1 connection closer] l.log4j2 - 83. Connection.close() returned 
-2025-01-03 17:56:33.350 INFO  [HikariPool-1 connection adder] l.log4j2 - 93. Connection opened. {executed in 0ms} 
-2025-01-03 17:56:33.350 INFO  [HikariPool-1 connection adder] l.log4j2 - 93. Connection.new Connection returned 
-2025-01-03 17:56:33.350 INFO  [HikariPool-1 connection adder] l.log4j2 - 93. Connection.isReadOnly() returned false
-2025-01-03 17:56:33.350 INFO  [HikariPool-1 connection adder] l.log4j2 - 93. Connection.getAutoCommit() returned true
-2025-01-03 17:56:37.620 INFO  [HikariPool-1 connection closer] l.log4j2 - 86. Connection closed. {executed in 0ms} 
-2025-01-03 17:56:37.620 INFO  [HikariPool-1 connection closer] l.log4j2 - 86. Connection.close() returned 
-2025-01-03 17:56:37.620 INFO  [HikariPool-1 connection adder] l.log4j2 - 94. Connection opened. {executed in 0ms} 
-2025-01-03 17:56:37.620 INFO  [HikariPool-1 connection adder] l.log4j2 - 94. Connection.new Connection returned 
-2025-01-03 17:56:37.620 INFO  [HikariPool-1 connection adder] l.log4j2 - 94. Connection.isReadOnly() returned false
-2025-01-03 17:56:37.620 INFO  [HikariPool-1 connection adder] l.log4j2 - 94. Connection.getAutoCommit() returned true
-2025-01-03 17:56:37.886 INFO  [HikariPool-1 connection closer] l.log4j2 - 84. Connection closed. {executed in 1ms} 
-2025-01-03 17:56:37.886 INFO  [HikariPool-1 connection closer] l.log4j2 - 84. Connection.close() returned 
-2025-01-03 17:56:37.887 INFO  [HikariPool-1 connection adder] l.log4j2 - 95. Connection opened. {executed in 2ms} 
-2025-01-03 17:56:37.887 INFO  [HikariPool-1 connection adder] l.log4j2 - 95. Connection.new Connection returned 
-2025-01-03 17:56:37.887 INFO  [HikariPool-1 connection adder] l.log4j2 - 95. Connection.isReadOnly() returned false
-2025-01-03 17:56:37.887 INFO  [HikariPool-1 connection adder] l.log4j2 - 95. Connection.getAutoCommit() returned true
-2025-01-03 17:56:43.298 INFO  [HikariPool-1 connection closer] l.log4j2 - 87. Connection closed. {executed in 0ms} 
-2025-01-03 17:56:43.298 INFO  [HikariPool-1 connection closer] l.log4j2 - 87. Connection.close() returned 
-2025-01-03 17:56:43.298 INFO  [HikariPool-1 connection adder] l.log4j2 - 96. Connection opened. {executed in 0ms} 
-2025-01-03 17:56:43.298 INFO  [HikariPool-1 connection adder] l.log4j2 - 96. Connection.new Connection returned 
-2025-01-03 17:56:43.298 INFO  [HikariPool-1 connection adder] l.log4j2 - 96. Connection.isReadOnly() returned false
-2025-01-03 17:56:43.298 INFO  [HikariPool-1 connection adder] l.log4j2 - 96. Connection.getAutoCommit() returned true
-2025-01-03 17:56:55.357 INFO  [HikariPool-1 connection closer] l.log4j2 - 85. Connection closed. {executed in 0ms} 
-2025-01-03 17:56:55.357 INFO  [HikariPool-1 connection closer] l.log4j2 - 85. Connection.close() returned 
-2025-01-03 17:56:55.357 INFO  [HikariPool-1 connection adder] l.log4j2 - 97. Connection opened. {executed in 0ms} 
-2025-01-03 17:56:55.357 INFO  [HikariPool-1 connection adder] l.log4j2 - 97. Connection.new Connection returned 
-2025-01-03 17:56:55.357 INFO  [HikariPool-1 connection adder] l.log4j2 - 97. Connection.isReadOnly() returned false
-2025-01-03 17:56:55.357 INFO  [HikariPool-1 connection adder] l.log4j2 - 97. Connection.getAutoCommit() returned true
-2025-01-03 17:56:58.031 INFO  [HikariPool-1 connection closer] l.log4j2 - 88. Connection closed. {executed in 0ms} 
-2025-01-03 17:56:58.031 INFO  [HikariPool-1 connection closer] l.log4j2 - 88. Connection.close() returned 
-2025-01-03 17:56:58.034 INFO  [HikariPool-1 connection adder] l.log4j2 - 98. Connection opened. {executed in 3ms} 
-2025-01-03 17:56:58.034 INFO  [HikariPool-1 connection adder] l.log4j2 - 98. Connection.new Connection returned 
-2025-01-03 17:56:58.034 INFO  [HikariPool-1 connection adder] l.log4j2 - 98. Connection.isReadOnly() returned false
-2025-01-03 17:56:58.035 INFO  [HikariPool-1 connection adder] l.log4j2 - 98. Connection.getAutoCommit() returned true
-2025-01-03 17:57:00.676 INFO  [HikariPool-1 connection closer] l.log4j2 - 89. Connection closed. {executed in 0ms} 
-2025-01-03 17:57:00.676 INFO  [HikariPool-1 connection closer] l.log4j2 - 89. Connection.close() returned 
-2025-01-03 17:57:00.676 INFO  [HikariPool-1 connection adder] l.log4j2 - 99. Connection opened. {executed in 0ms} 
-2025-01-03 17:57:00.676 INFO  [HikariPool-1 connection adder] l.log4j2 - 99. Connection.new Connection returned 
-2025-01-03 17:57:00.676 INFO  [HikariPool-1 connection adder] l.log4j2 - 99. Connection.isReadOnly() returned false
-2025-01-03 17:57:00.676 INFO  [HikariPool-1 connection adder] l.log4j2 - 99. Connection.getAutoCommit() returned true
-2025-01-03 17:57:02.839 INFO  [HikariPool-1 connection closer] l.log4j2 - 90. Connection closed. {executed in 0ms} 
-2025-01-03 17:57:02.839 INFO  [HikariPool-1 connection closer] l.log4j2 - 90. Connection.close() returned 
-2025-01-03 17:57:02.839 INFO  [HikariPool-1 connection adder] l.log4j2 - 100. Connection opened. {executed in 0ms} 
-2025-01-03 17:57:02.839 INFO  [HikariPool-1 connection adder] l.log4j2 - 100. Connection.new Connection returned 
-2025-01-03 17:57:02.839 INFO  [HikariPool-1 connection adder] l.log4j2 - 100. Connection.isReadOnly() returned false
-2025-01-03 17:57:02.839 INFO  [HikariPool-1 connection adder] l.log4j2 - 100. Connection.getAutoCommit() returned true
-2025-01-03 23:19:34.803 WARN  [HikariPool-1 housekeeper] c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h18m57s208ms618µs800ns).
-2025-01-03 23:19:34.825 INFO  [HikariPool-1 connection closer] l.log4j2 - 91. Connection closed. {executed in 8ms} 
-2025-01-03 23:19:34.826 INFO  [HikariPool-1 connection closer] l.log4j2 - 91. Connection.close() returned 
-2025-01-03 23:19:34.839 INFO  [HikariPool-1 connection closer] l.log4j2 - 92. Connection closed. {executed in 13ms} 
-2025-01-03 23:19:34.839 INFO  [HikariPool-1 connection closer] l.log4j2 - 92. Connection.close() returned 
-2025-01-03 23:19:34.855 INFO  [HikariPool-1 connection closer] l.log4j2 - 93. Connection closed. {executed in 15ms} 
-2025-01-03 23:19:34.855 INFO  [HikariPool-1 connection closer] l.log4j2 - 93. Connection.close() returned 
-2025-01-03 23:19:34.870 INFO  [HikariPool-1 connection closer] l.log4j2 - 97. Connection closed. {executed in 15ms} 
-2025-01-03 23:19:34.870 INFO  [HikariPool-1 connection closer] l.log4j2 - 97. Connection.close() returned 
-2025-01-03 23:19:34.886 INFO  [HikariPool-1 connection closer] l.log4j2 - 94. Connection closed. {executed in 16ms} 
-2025-01-03 23:19:34.886 INFO  [HikariPool-1 connection closer] l.log4j2 - 94. Connection.close() returned 
-2025-01-03 23:19:34.898 INFO  [HikariPool-1 connection closer] l.log4j2 - 95. Connection closed. {executed in 12ms} 
-2025-01-03 23:19:34.898 INFO  [HikariPool-1 connection closer] l.log4j2 - 95. Connection.close() returned 
-2025-01-03 23:19:34.905 INFO  [HikariPool-1 connection closer] l.log4j2 - 96. Connection closed. {executed in 6ms} 
-2025-01-03 23:19:34.905 INFO  [HikariPool-1 connection closer] l.log4j2 - 96. Connection.close() returned 
-2025-01-03 23:19:34.916 INFO  [HikariPool-1 connection closer] l.log4j2 - 98. Connection closed. {executed in 11ms} 
-2025-01-03 23:19:34.918 INFO  [HikariPool-1 connection closer] l.log4j2 - 98. Connection.close() returned 
-2025-01-03 23:19:34.922 INFO  [HikariPool-1 connection closer] l.log4j2 - 100. Connection closed. {executed in 4ms} 
-2025-01-03 23:19:34.922 INFO  [HikariPool-1 connection closer] l.log4j2 - 100. Connection.close() returned 
-2025-01-03 23:19:34.933 INFO  [HikariPool-1 connection closer] l.log4j2 - 99. Connection closed. {executed in 11ms} 
-2025-01-03 23:19:34.933 INFO  [HikariPool-1 connection closer] l.log4j2 - 99. Connection.close() returned 
-2025-01-03 23:19:35.121 INFO  [HikariPool-1 connection adder] l.log4j2 - 101. Connection opened. {executed in 198ms} 
-2025-01-03 23:19:35.121 INFO  [HikariPool-1 connection adder] l.log4j2 - 101. Connection.new Connection returned 
-2025-01-03 23:19:35.121 INFO  [HikariPool-1 connection adder] l.log4j2 - 101. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.121 INFO  [HikariPool-1 connection adder] l.log4j2 - 101. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.150 INFO  [HikariPool-1 connection adder] l.log4j2 - 102. Connection opened. {executed in 7ms} 
-2025-01-03 23:19:35.150 INFO  [HikariPool-1 connection adder] l.log4j2 - 102. Connection.new Connection returned 
-2025-01-03 23:19:35.150 INFO  [HikariPool-1 connection adder] l.log4j2 - 102. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.150 INFO  [HikariPool-1 connection adder] l.log4j2 - 102. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.178 INFO  [HikariPool-1 connection adder] l.log4j2 - 103. Connection opened. {executed in 4ms} 
-2025-01-03 23:19:35.179 INFO  [HikariPool-1 connection adder] l.log4j2 - 103. Connection.new Connection returned 
-2025-01-03 23:19:35.179 INFO  [HikariPool-1 connection adder] l.log4j2 - 103. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.179 INFO  [HikariPool-1 connection adder] l.log4j2 - 103. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.199 INFO  [HikariPool-1 connection adder] l.log4j2 - 104. Connection opened. {executed in 10ms} 
-2025-01-03 23:19:35.199 INFO  [HikariPool-1 connection adder] l.log4j2 - 104. Connection.new Connection returned 
-2025-01-03 23:19:35.199 INFO  [HikariPool-1 connection adder] l.log4j2 - 104. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.199 INFO  [HikariPool-1 connection adder] l.log4j2 - 104. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.227 INFO  [HikariPool-1 connection adder] l.log4j2 - 105. Connection opened. {executed in 7ms} 
-2025-01-03 23:19:35.227 INFO  [HikariPool-1 connection adder] l.log4j2 - 105. Connection.new Connection returned 
-2025-01-03 23:19:35.227 INFO  [HikariPool-1 connection adder] l.log4j2 - 105. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.227 INFO  [HikariPool-1 connection adder] l.log4j2 - 105. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.258 INFO  [HikariPool-1 connection adder] l.log4j2 - 106. Connection opened. {executed in 6ms} 
-2025-01-03 23:19:35.258 INFO  [HikariPool-1 connection adder] l.log4j2 - 106. Connection.new Connection returned 
-2025-01-03 23:19:35.258 INFO  [HikariPool-1 connection adder] l.log4j2 - 106. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.258 INFO  [HikariPool-1 connection adder] l.log4j2 - 106. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.290 INFO  [HikariPool-1 connection adder] l.log4j2 - 107. Connection opened. {executed in 8ms} 
-2025-01-03 23:19:35.290 INFO  [HikariPool-1 connection adder] l.log4j2 - 107. Connection.new Connection returned 
-2025-01-03 23:19:35.290 INFO  [HikariPool-1 connection adder] l.log4j2 - 107. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.291 INFO  [HikariPool-1 connection adder] l.log4j2 - 107. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.319 INFO  [HikariPool-1 connection adder] l.log4j2 - 108. Connection opened. {executed in 6ms} 
-2025-01-03 23:19:35.319 INFO  [HikariPool-1 connection adder] l.log4j2 - 108. Connection.new Connection returned 
-2025-01-03 23:19:35.319 INFO  [HikariPool-1 connection adder] l.log4j2 - 108. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.319 INFO  [HikariPool-1 connection adder] l.log4j2 - 108. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.346 INFO  [HikariPool-1 connection adder] l.log4j2 - 109. Connection opened. {executed in 1ms} 
-2025-01-03 23:19:35.346 INFO  [HikariPool-1 connection adder] l.log4j2 - 109. Connection.new Connection returned 
-2025-01-03 23:19:35.346 INFO  [HikariPool-1 connection adder] l.log4j2 - 109. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.346 INFO  [HikariPool-1 connection adder] l.log4j2 - 109. Connection.getAutoCommit() returned true
-2025-01-03 23:19:35.401 INFO  [HikariPool-1 connection adder] l.log4j2 - 110. Connection opened. {executed in 25ms} 
-2025-01-03 23:19:35.401 INFO  [HikariPool-1 connection adder] l.log4j2 - 110. Connection.new Connection returned 
-2025-01-03 23:19:35.401 INFO  [HikariPool-1 connection adder] l.log4j2 - 110. Connection.isReadOnly() returned false
-2025-01-03 23:19:35.401 INFO  [HikariPool-1 connection adder] l.log4j2 - 110. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.430 WARN  [HikariPool-1 housekeeper] c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d9h30m9s186ms39µs500ns).
+2025-01-06 08:53:12.732 INFO  [HikariPool-1 connection adder] l.log4j2 - 111. Connection opened. {executed in 48ms} 
+2025-01-06 08:53:12.732 INFO  [HikariPool-1 connection adder] l.log4j2 - 111. Connection.new Connection returned 
+2025-01-06 08:53:12.732 INFO  [HikariPool-1 connection adder] l.log4j2 - 111. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.732 INFO  [HikariPool-1 connection adder] l.log4j2 - 111. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.748 INFO  [HikariPool-1 connection adder] l.log4j2 - 112. Connection opened. {executed in 0ms} 
+2025-01-06 08:53:12.748 INFO  [HikariPool-1 connection adder] l.log4j2 - 112. Connection.new Connection returned 
+2025-01-06 08:53:12.748 INFO  [HikariPool-1 connection adder] l.log4j2 - 112. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.748 INFO  [HikariPool-1 connection adder] l.log4j2 - 112. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.763 INFO  [HikariPool-1 connection adder] l.log4j2 - 113. Connection opened. {executed in 0ms} 
+2025-01-06 08:53:12.763 INFO  [HikariPool-1 connection adder] l.log4j2 - 113. Connection.new Connection returned 
+2025-01-06 08:53:12.763 INFO  [HikariPool-1 connection adder] l.log4j2 - 113. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.763 INFO  [HikariPool-1 connection adder] l.log4j2 - 113. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.779 INFO  [HikariPool-1 connection adder] l.log4j2 - 114. Connection opened. {executed in 0ms} 
+2025-01-06 08:53:12.779 INFO  [HikariPool-1 connection adder] l.log4j2 - 114. Connection.new Connection returned 
+2025-01-06 08:53:12.779 INFO  [HikariPool-1 connection adder] l.log4j2 - 114. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.779 INFO  [HikariPool-1 connection adder] l.log4j2 - 114. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.795 INFO  [HikariPool-1 connection adder] l.log4j2 - 115. Connection opened. {executed in 0ms} 
+2025-01-06 08:53:12.795 INFO  [HikariPool-1 connection adder] l.log4j2 - 115. Connection.new Connection returned 
+2025-01-06 08:53:12.795 INFO  [HikariPool-1 connection adder] l.log4j2 - 115. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.795 INFO  [HikariPool-1 connection adder] l.log4j2 - 115. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 107. Connection closed. {executed in 126ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 107. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 103. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 103. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 102. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 102. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 104. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 104. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection adder] l.log4j2 - 116. Connection opened. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection adder] l.log4j2 - 116. Connection.new Connection returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 105. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection adder] l.log4j2 - 116. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 105. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection adder] l.log4j2 - 116. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 108. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 108. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 109. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 109. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 110. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 110. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 101. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 101. Connection.close() returned 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 106. Connection closed. {executed in 0ms} 
+2025-01-06 08:53:12.810 INFO  [HikariPool-1 connection closer] l.log4j2 - 106. Connection.close() returned 
+2025-01-06 08:53:12.826 INFO  [HikariPool-1 connection adder] l.log4j2 - 117. Connection opened. {executed in 0ms} 
+2025-01-06 08:53:12.826 INFO  [HikariPool-1 connection adder] l.log4j2 - 117. Connection.new Connection returned 
+2025-01-06 08:53:12.826 INFO  [HikariPool-1 connection adder] l.log4j2 - 117. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.826 INFO  [HikariPool-1 connection adder] l.log4j2 - 117. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.845 INFO  [HikariPool-1 connection adder] l.log4j2 - 118. Connection opened. {executed in 3ms} 
+2025-01-06 08:53:12.845 INFO  [HikariPool-1 connection adder] l.log4j2 - 118. Connection.new Connection returned 
+2025-01-06 08:53:12.845 INFO  [HikariPool-1 connection adder] l.log4j2 - 118. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.845 INFO  [HikariPool-1 connection adder] l.log4j2 - 118. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 119. Connection opened. {executed in 0ms} 
+2025-01-06 08:53:12.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 119. Connection.new Connection returned 
+2025-01-06 08:53:12.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 119. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.858 INFO  [HikariPool-1 connection adder] l.log4j2 - 119. Connection.getAutoCommit() returned true
+2025-01-06 08:53:12.874 INFO  [HikariPool-1 connection adder] l.log4j2 - 120. Connection opened. {executed in 0ms} 
+2025-01-06 08:53:12.874 INFO  [HikariPool-1 connection adder] l.log4j2 - 120. Connection.new Connection returned 
+2025-01-06 08:53:12.874 INFO  [HikariPool-1 connection adder] l.log4j2 - 120. Connection.isReadOnly() returned false
+2025-01-06 08:53:12.874 INFO  [HikariPool-1 connection adder] l.log4j2 - 120. Connection.getAutoCommit() returned true
+2025-01-06 09:08:11.779 WARN  [HikariPool-1 housekeeper] c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m59s441ms338µs).
+2025-01-06 09:22:30.628 INFO  [HikariPool-1 connection closer] l.log4j2 - 113. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:30.628 INFO  [HikariPool-1 connection closer] l.log4j2 - 113. Connection.close() returned 
+2025-01-06 09:22:30.643 INFO  [HikariPool-1 connection adder] l.log4j2 - 121. Connection opened. {executed in 15ms} 
+2025-01-06 09:22:30.643 INFO  [HikariPool-1 connection adder] l.log4j2 - 121. Connection.new Connection returned 
+2025-01-06 09:22:30.643 INFO  [HikariPool-1 connection adder] l.log4j2 - 121. Connection.isReadOnly() returned false
+2025-01-06 09:22:30.643 INFO  [HikariPool-1 connection adder] l.log4j2 - 121. Connection.getAutoCommit() returned true
+2025-01-06 09:22:32.727 INFO  [HikariPool-1 connection closer] l.log4j2 - 117. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:32.727 INFO  [HikariPool-1 connection closer] l.log4j2 - 117. Connection.close() returned 
+2025-01-06 09:22:32.727 INFO  [HikariPool-1 connection adder] l.log4j2 - 122. Connection opened. {executed in 0ms} 
+2025-01-06 09:22:32.727 INFO  [HikariPool-1 connection adder] l.log4j2 - 122. Connection.new Connection returned 
+2025-01-06 09:22:32.727 INFO  [HikariPool-1 connection adder] l.log4j2 - 122. Connection.isReadOnly() returned false
+2025-01-06 09:22:32.727 INFO  [HikariPool-1 connection adder] l.log4j2 - 122. Connection.getAutoCommit() returned true
+2025-01-06 09:22:41.486 INFO  [HikariPool-1 connection closer] l.log4j2 - 119. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:41.486 INFO  [HikariPool-1 connection closer] l.log4j2 - 119. Connection.close() returned 
+2025-01-06 09:22:41.486 INFO  [HikariPool-1 connection adder] l.log4j2 - 123. Connection opened. {executed in 0ms} 
+2025-01-06 09:22:41.486 INFO  [HikariPool-1 connection adder] l.log4j2 - 123. Connection.new Connection returned 
+2025-01-06 09:22:41.486 INFO  [HikariPool-1 connection adder] l.log4j2 - 123. Connection.isReadOnly() returned false
+2025-01-06 09:22:41.486 INFO  [HikariPool-1 connection adder] l.log4j2 - 123. Connection.getAutoCommit() returned true
+2025-01-06 09:22:41.721 INFO  [HikariPool-1 connection closer] l.log4j2 - 114. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:41.721 INFO  [HikariPool-1 connection closer] l.log4j2 - 114. Connection.close() returned 
+2025-01-06 09:22:41.721 INFO  [HikariPool-1 connection adder] l.log4j2 - 124. Connection opened. {executed in 0ms} 
+2025-01-06 09:22:41.721 INFO  [HikariPool-1 connection adder] l.log4j2 - 124. Connection.new Connection returned 
+2025-01-06 09:22:41.721 INFO  [HikariPool-1 connection adder] l.log4j2 - 124. Connection.isReadOnly() returned false
+2025-01-06 09:22:41.721 INFO  [HikariPool-1 connection adder] l.log4j2 - 124. Connection.getAutoCommit() returned true
+2025-01-06 09:22:50.305 INFO  [HikariPool-1 connection closer] l.log4j2 - 120. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:50.305 INFO  [HikariPool-1 connection closer] l.log4j2 - 120. Connection.close() returned 
+2025-01-06 09:22:50.305 INFO  [HikariPool-1 connection adder] l.log4j2 - 125. Connection opened. {executed in 0ms} 
+2025-01-06 09:22:50.305 INFO  [HikariPool-1 connection adder] l.log4j2 - 125. Connection.new Connection returned 
+2025-01-06 09:22:50.305 INFO  [HikariPool-1 connection adder] l.log4j2 - 125. Connection.isReadOnly() returned false
+2025-01-06 09:22:50.305 INFO  [HikariPool-1 connection adder] l.log4j2 - 125. Connection.getAutoCommit() returned true
+2025-01-06 09:22:51.309 INFO  [HikariPool-1 connection closer] l.log4j2 - 116. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:51.309 INFO  [HikariPool-1 connection closer] l.log4j2 - 116. Connection.close() returned 
+2025-01-06 09:22:51.309 INFO  [HikariPool-1 connection adder] l.log4j2 - 126. Connection opened. {executed in 0ms} 
+2025-01-06 09:22:51.309 INFO  [HikariPool-1 connection adder] l.log4j2 - 126. Connection.new Connection returned 
+2025-01-06 09:22:51.309 INFO  [HikariPool-1 connection adder] l.log4j2 - 126. Connection.isReadOnly() returned false
+2025-01-06 09:22:51.309 INFO  [HikariPool-1 connection adder] l.log4j2 - 126. Connection.getAutoCommit() returned true
+2025-01-06 09:22:52.985 INFO  [HikariPool-1 connection closer] l.log4j2 - 111. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:52.985 INFO  [HikariPool-1 connection closer] l.log4j2 - 111. Connection.close() returned 
+2025-01-06 09:22:52.985 INFO  [HikariPool-1 connection adder] l.log4j2 - 127. Connection opened. {executed in 0ms} 
+2025-01-06 09:22:52.985 INFO  [HikariPool-1 connection adder] l.log4j2 - 127. Connection.new Connection returned 
+2025-01-06 09:22:52.985 INFO  [HikariPool-1 connection adder] l.log4j2 - 127. Connection.isReadOnly() returned false
+2025-01-06 09:22:52.985 INFO  [HikariPool-1 connection adder] l.log4j2 - 127. Connection.getAutoCommit() returned true
+2025-01-06 09:22:56.821 INFO  [HikariPool-1 connection closer] l.log4j2 - 112. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:56.821 INFO  [HikariPool-1 connection closer] l.log4j2 - 112. Connection.close() returned 
+2025-01-06 09:22:56.829 INFO  [HikariPool-1 connection adder] l.log4j2 - 128. Connection opened. {executed in 0ms} 
+2025-01-06 09:22:56.829 INFO  [HikariPool-1 connection adder] l.log4j2 - 128. Connection.new Connection returned 
+2025-01-06 09:22:56.829 INFO  [HikariPool-1 connection adder] l.log4j2 - 128. Connection.isReadOnly() returned false
+2025-01-06 09:22:56.829 INFO  [HikariPool-1 connection adder] l.log4j2 - 128. Connection.getAutoCommit() returned true
+2025-01-06 09:22:58.588 INFO  [HikariPool-1 connection closer] l.log4j2 - 118. Connection closed. {executed in 0ms} 
+2025-01-06 09:22:58.588 INFO  [HikariPool-1 connection closer] l.log4j2 - 118. Connection.close() returned 
+2025-01-06 09:22:58.588 INFO  [HikariPool-1 connection adder] l.log4j2 - 129. Connection opened. {executed in 0ms} 
+2025-01-06 09:22:58.588 INFO  [HikariPool-1 connection adder] l.log4j2 - 129. Connection.new Connection returned 
+2025-01-06 09:22:58.588 INFO  [HikariPool-1 connection adder] l.log4j2 - 129. Connection.isReadOnly() returned false
+2025-01-06 09:22:58.588 INFO  [HikariPool-1 connection adder] l.log4j2 - 129. Connection.getAutoCommit() returned true
+2025-01-06 09:23:12.359 INFO  [HikariPool-1 connection closer] l.log4j2 - 115. Connection closed. {executed in 0ms} 
+2025-01-06 09:23:12.359 INFO  [HikariPool-1 connection closer] l.log4j2 - 115. Connection.close() returned 
+2025-01-06 09:23:12.359 INFO  [HikariPool-1 connection adder] l.log4j2 - 130. Connection opened. {executed in 0ms} 
+2025-01-06 09:23:12.359 INFO  [HikariPool-1 connection adder] l.log4j2 - 130. Connection.new Connection returned 
+2025-01-06 09:23:12.359 INFO  [HikariPool-1 connection adder] l.log4j2 - 130. Connection.isReadOnly() returned false
+2025-01-06 09:23:12.359 INFO  [HikariPool-1 connection adder] l.log4j2 - 130. Connection.getAutoCommit() returned true
+2025-01-06 09:52:01.098 INFO  [HikariPool-1 connection closer] l.log4j2 - 121. Connection closed. {executed in 16ms} 
+2025-01-06 09:52:01.098 INFO  [HikariPool-1 connection closer] l.log4j2 - 121. Connection.close() returned 
+2025-01-06 09:52:01.113 INFO  [HikariPool-1 connection adder] l.log4j2 - 131. Connection opened. {executed in 15ms} 
+2025-01-06 09:52:01.113 INFO  [HikariPool-1 connection adder] l.log4j2 - 131. Connection.new Connection returned 
+2025-01-06 09:52:01.113 INFO  [HikariPool-1 connection adder] l.log4j2 - 131. Connection.isReadOnly() returned false
+2025-01-06 09:52:01.113 INFO  [HikariPool-1 connection adder] l.log4j2 - 131. Connection.getAutoCommit() returned true
+2025-01-06 09:52:18.823 INFO  [HikariPool-1 connection closer] l.log4j2 - 129. Connection closed. {executed in 0ms} 
+2025-01-06 09:52:18.823 INFO  [HikariPool-1 connection closer] l.log4j2 - 129. Connection.close() returned 
+2025-01-06 09:52:18.823 INFO  [HikariPool-1 connection adder] l.log4j2 - 132. Connection opened. {executed in 0ms} 
+2025-01-06 09:52:18.823 INFO  [HikariPool-1 connection adder] l.log4j2 - 132. Connection.new Connection returned 
+2025-01-06 09:52:18.823 INFO  [HikariPool-1 connection adder] l.log4j2 - 132. Connection.isReadOnly() returned false
+2025-01-06 09:52:18.823 INFO  [HikariPool-1 connection adder] l.log4j2 - 132. Connection.getAutoCommit() returned true
+2025-01-06 09:52:22.187 INFO  [HikariPool-1 connection closer] l.log4j2 - 125. Connection closed. {executed in 0ms} 
+2025-01-06 09:52:22.187 INFO  [HikariPool-1 connection closer] l.log4j2 - 125. Connection.close() returned 
+2025-01-06 09:52:22.187 INFO  [HikariPool-1 connection adder] l.log4j2 - 133. Connection opened. {executed in 0ms} 
+2025-01-06 09:52:22.187 INFO  [HikariPool-1 connection adder] l.log4j2 - 133. Connection.new Connection returned 
+2025-01-06 09:52:22.187 INFO  [HikariPool-1 connection adder] l.log4j2 - 133. Connection.isReadOnly() returned false
+2025-01-06 09:52:22.187 INFO  [HikariPool-1 connection adder] l.log4j2 - 133. Connection.getAutoCommit() returned true
+2025-01-06 09:52:24.005 INFO  [HikariPool-1 connection closer] l.log4j2 - 124. Connection closed. {executed in 0ms} 
+2025-01-06 09:52:24.005 INFO  [HikariPool-1 connection closer] l.log4j2 - 124. Connection.close() returned 
+2025-01-06 09:52:24.005 INFO  [HikariPool-1 connection adder] l.log4j2 - 134. Connection opened. {executed in 0ms} 
+2025-01-06 09:52:24.005 INFO  [HikariPool-1 connection adder] l.log4j2 - 134. Connection.new Connection returned 
+2025-01-06 09:52:24.005 INFO  [HikariPool-1 connection adder] l.log4j2 - 134. Connection.isReadOnly() returned false
+2025-01-06 09:52:24.005 INFO  [HikariPool-1 connection adder] l.log4j2 - 134. Connection.getAutoCommit() returned true
+2025-01-06 09:52:24.962 INFO  [HikariPool-1 connection closer] l.log4j2 - 126. Connection closed. {executed in 0ms} 
+2025-01-06 09:52:24.962 INFO  [HikariPool-1 connection closer] l.log4j2 - 126. Connection.close() returned 
+2025-01-06 09:52:24.962 INFO  [HikariPool-1 connection adder] l.log4j2 - 135. Connection opened. {executed in 0ms} 
+2025-01-06 09:52:24.962 INFO  [HikariPool-1 connection adder] l.log4j2 - 135. Connection.new Connection returned 
+2025-01-06 09:52:24.962 INFO  [HikariPool-1 connection adder] l.log4j2 - 135. Connection.isReadOnly() returned false
+2025-01-06 09:52:24.962 INFO  [HikariPool-1 connection adder] l.log4j2 - 135. Connection.getAutoCommit() returned true
+2025-01-06 09:52:27.878 INFO  [HikariPool-1 connection closer] l.log4j2 - 122. Connection closed. {executed in 0ms} 
+2025-01-06 09:52:27.878 INFO  [HikariPool-1 connection closer] l.log4j2 - 122. Connection.close() returned 
+2025-01-06 09:52:27.878 INFO  [HikariPool-1 connection adder] l.log4j2 - 136. Connection opened. {executed in 0ms} 
+2025-01-06 09:52:27.878 INFO  [HikariPool-1 connection adder] l.log4j2 - 136. Connection.new Connection returned 
+2025-01-06 09:52:27.878 INFO  [HikariPool-1 connection adder] l.log4j2 - 136. Connection.isReadOnly() returned false
+2025-01-06 09:52:27.878 INFO  [HikariPool-1 connection adder] l.log4j2 - 136. Connection.getAutoCommit() returned true
+2025-01-06 09:52:41.119 INFO  [HikariPool-1 connection closer] l.log4j2 - 123. Connection closed. {executed in 1ms} 
+2025-01-06 09:52:41.119 INFO  [HikariPool-1 connection closer] l.log4j2 - 123. Connection.close() returned 
+2025-01-06 09:52:41.121 INFO  [HikariPool-1 connection adder] l.log4j2 - 137. Connection opened. {executed in 2ms} 
+2025-01-06 09:52:41.121 INFO  [HikariPool-1 connection adder] l.log4j2 - 137. Connection.new Connection returned 
+2025-01-06 09:52:41.121 INFO  [HikariPool-1 connection adder] l.log4j2 - 137. Connection.isReadOnly() returned false
+2025-01-06 09:52:41.121 INFO  [HikariPool-1 connection adder] l.log4j2 - 137. Connection.getAutoCommit() returned true
+2025-01-06 09:52:50.616 INFO  [HikariPool-1 connection closer] l.log4j2 - 127. Connection closed. {executed in 0ms} 
+2025-01-06 09:52:50.616 INFO  [HikariPool-1 connection closer] l.log4j2 - 127. Connection.close() returned 
+2025-01-06 09:52:50.616 INFO  [HikariPool-1 connection adder] l.log4j2 - 138. Connection opened. {executed in 0ms} 
+2025-01-06 09:52:50.616 INFO  [HikariPool-1 connection adder] l.log4j2 - 138. Connection.new Connection returned 
+2025-01-06 09:52:50.616 INFO  [HikariPool-1 connection adder] l.log4j2 - 138. Connection.isReadOnly() returned false
+2025-01-06 09:52:50.616 INFO  [HikariPool-1 connection adder] l.log4j2 - 138. Connection.getAutoCommit() returned true
+2025-01-06 09:52:51.018 INFO  [HikariPool-1 connection closer] l.log4j2 - 128. Connection closed. {executed in 1ms} 
+2025-01-06 09:52:51.018 INFO  [HikariPool-1 connection closer] l.log4j2 - 128. Connection.close() returned 
+2025-01-06 09:52:51.019 INFO  [HikariPool-1 connection adder] l.log4j2 - 139. Connection opened. {executed in 2ms} 
+2025-01-06 09:52:51.019 INFO  [HikariPool-1 connection adder] l.log4j2 - 139. Connection.new Connection returned 
+2025-01-06 09:52:51.019 INFO  [HikariPool-1 connection adder] l.log4j2 - 139. Connection.isReadOnly() returned false
+2025-01-06 09:52:51.019 INFO  [HikariPool-1 connection adder] l.log4j2 - 139. Connection.getAutoCommit() returned true
+2025-01-06 09:53:07.239 INFO  [HikariPool-1 connection closer] l.log4j2 - 130. Connection closed. {executed in 1ms} 
+2025-01-06 09:53:07.239 INFO  [HikariPool-1 connection closer] l.log4j2 - 130. Connection.close() returned 
+2025-01-06 09:53:07.242 INFO  [HikariPool-1 connection adder] l.log4j2 - 140. Connection opened. {executed in 3ms} 
+2025-01-06 09:53:07.242 INFO  [HikariPool-1 connection adder] l.log4j2 - 140. Connection.new Connection returned 
+2025-01-06 09:53:07.242 INFO  [HikariPool-1 connection adder] l.log4j2 - 140. Connection.isReadOnly() returned false
+2025-01-06 09:53:07.242 INFO  [HikariPool-1 connection adder] l.log4j2 - 140. Connection.getAutoCommit() returned true
