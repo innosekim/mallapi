@@ -35,3 +35,10 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# 로그 파일
+  *.log
+  *.gz
+
+  # IDE 임시 파일
+  *.imi

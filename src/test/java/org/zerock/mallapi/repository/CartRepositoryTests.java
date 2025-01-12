@@ -65,7 +65,7 @@ public class CartRepositoryTests {
     @Test
     @Commit
     public void testUpdateByCino() {
-        Long cino = 1L;
+        Long cino = 2L;
         int qty = 4;
         Optional<CartItem> result = cartItemRepository.findById(cino);
         CartItem cartItem = result.orElseThrow();
