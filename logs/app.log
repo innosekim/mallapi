@@ -17737,6 +17737,29 @@ order by ci1_0.cino desc  {executed in 1 ms}
 2025-01-08 17:53:20.777 INFO  [HikariPool-28 connection adder] l.log4j2 - 390. Connection.new Connection returned 
 2025-01-08 17:53:20.777 INFO  [HikariPool-28 connection adder] l.log4j2 - 390. Connection.isReadOnly() returned false
 2025-01-08 17:53:20.777 INFO  [HikariPool-28 connection adder] l.log4j2 - 390. Connection.getAutoCommit() returned true
+2025-01-08 18:05:03.462 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-08 18:05:03.484 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource - HikariPool-28 - Shutdown initiated...
+2025-01-08 18:05:03.489 INFO  [HikariPool-28 connection closer] l.log4j2 - 381. Connection closed. {executed in 2ms} 
+2025-01-08 18:05:03.489 INFO  [HikariPool-28 connection closer] l.log4j2 - 381. Connection.close() returned 
+2025-01-08 18:05:03.490 INFO  [HikariPool-28 connection closer] l.log4j2 - 382. Connection closed. {executed in 1ms} 
+2025-01-08 18:05:03.490 INFO  [HikariPool-28 connection closer] l.log4j2 - 382. Connection.close() returned 
+2025-01-08 18:05:03.490 INFO  [HikariPool-28 connection closer] l.log4j2 - 383. Connection closed. {executed in 0ms} 
+2025-01-08 18:05:03.490 INFO  [HikariPool-28 connection closer] l.log4j2 - 383. Connection.close() returned 
+2025-01-08 18:05:03.490 INFO  [HikariPool-28 connection closer] l.log4j2 - 384. Connection closed. {executed in 0ms} 
+2025-01-08 18:05:03.490 INFO  [HikariPool-28 connection closer] l.log4j2 - 384. Connection.close() returned 
+2025-01-08 18:05:03.491 INFO  [HikariPool-28 connection closer] l.log4j2 - 385. Connection closed. {executed in 1ms} 
+2025-01-08 18:05:03.491 INFO  [HikariPool-28 connection closer] l.log4j2 - 385. Connection.close() returned 
+2025-01-08 18:05:03.491 INFO  [HikariPool-28 connection closer] l.log4j2 - 386. Connection closed. {executed in 0ms} 
+2025-01-08 18:05:03.491 INFO  [HikariPool-28 connection closer] l.log4j2 - 386. Connection.close() returned 
+2025-01-08 18:05:03.492 INFO  [HikariPool-28 connection closer] l.log4j2 - 387. Connection closed. {executed in 1ms} 
+2025-01-08 18:05:03.492 INFO  [HikariPool-28 connection closer] l.log4j2 - 387. Connection.close() returned 
+2025-01-08 18:05:03.493 INFO  [HikariPool-28 connection closer] l.log4j2 - 388. Connection closed. {executed in 1ms} 
+2025-01-08 18:05:03.493 INFO  [HikariPool-28 connection closer] l.log4j2 - 388. Connection.close() returned 
+2025-01-08 18:05:03.493 INFO  [HikariPool-28 connection closer] l.log4j2 - 389. Connection closed. {executed in 0ms} 
+2025-01-08 18:05:03.493 INFO  [HikariPool-28 connection closer] l.log4j2 - 389. Connection.close() returned 
+2025-01-08 18:05:03.494 INFO  [HikariPool-28 connection closer] l.log4j2 - 390. Connection closed. {executed in 1ms} 
+2025-01-08 18:05:03.494 INFO  [HikariPool-28 connection closer] l.log4j2 - 390. Connection.close() returned 
+2025-01-08 18:05:03.494 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource - HikariPool-28 - Shutdown completed.
 2025-01-12 19:49:33.355 INFO  [restartedMain] o.z.m.MallapiApplication - Starting MallapiApplication using Java 17.0.13 with PID 2200 (C:\Users\ÍπÄÏÑ±ÏùÄ\Documents\mallapi\build\classes\java\main started by ÍπÄÏÑ±ÏùÄ in C:\Users\ÍπÄÏÑ±ÏùÄ\Documents\mallapi)
 2025-01-12 19:49:33.357 INFO  [restartedMain] o.z.m.MallapiApplication - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 19:49:33.396 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -17971,7 +17994,7 @@ references member (email)  {executed in 26 ms}
 2025-01-12 19:52:23.263 INFO  [Thread-5] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
 2025-01-12 19:52:23.328 INFO  [restartedMain] o.z.m.MallapiApplication - Starting MallapiApplication using Java 17.0.13 with PID 2200 (C:\Users\ÍπÄÏÑ±ÏùÄ\Documents\mallapi\build\classes\java\main started by ÍπÄÏÑ±ÏùÄ in C:\Users\ÍπÄÏÑ±ÏùÄ\Documents\mallapi)
 2025-01-12 19:52:23.329 INFO  [restartedMain] o.z.m.MallapiApplication - No active profile set, falling back to 1 default profile: "default"
-2025-01-12 19:52:23.413 INFO  [Test worker] o.z.m.MallapiApplicationTests - Starting MallapiApplicationTests using Java 17.0.13 with PID 19704 (started by ±Ëº∫¿∫ in C:\Users\±Ëº∫¿∫\Documents\mallapi)
+2025-01-12 19:52:23.413 INFO  [Test worker] o.z.m.MallapiApplicationTests - Starting MallapiApplicationTests using Java 17.0.13 with PID 19704 (started by ÔøΩËº∫ÔøΩÔøΩ in C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi)
 2025-01-12 19:52:23.416 INFO  [Test worker] o.z.m.MallapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 19:52:23.544 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2025-01-12 19:52:23.567 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 5 JPA repository interfaces.
@@ -18305,7 +18328,7 @@ references member (email)  {executed in 26 ms}
 2025-01-12 19:52:26.388 INFO  [Test worker] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-01-12 19:52:26.728 INFO  [Test worker] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
 2025-01-12 19:52:27.474 INFO  [Test worker] o.z.m.u.CustomFileUtil - -------------------------------------
-2025-01-12 19:52:27.475 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\±Ëº∫¿∫\Documents\mallapi\upload
+2025-01-12 19:52:27.475 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi\upload
 2025-01-12 19:52:27.687 WARN  [Test worker] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-01-12 19:52:27.913 INFO  [Test worker] o.z.m.c.CustomSecurityConfig - ---------------------security config---------------------------
 2025-01-12 19:52:28.050 INFO  [Test worker] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bcf2780, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bb4adf7, org.springframework.security.web.context.SecurityContextHolderFilter@537360e3, org.springframework.security.web.header.HeaderWriterFilter@2a64cb1f, org.springframework.web.filter.CorsFilter@11544ddd, org.springframework.security.web.authentication.logout.LogoutFilter@20c1cb0c, org.zerock.mallapi.security.filter.JWTCheckFilter@38e46ea, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77fa509a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ec25389, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b5f91a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@116f823c, org.springframework.security.web.session.SessionManagementFilter@76aab1e3, org.springframework.security.web.access.ExceptionTranslationFilter@9124278]
@@ -19365,13 +19388,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.110 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.110 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@181f2388
 2025-01-12 19:52:31.110 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.110 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 0") returned 
-2025-01-12 19:52:31.110 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞0") returned 
+2025-01-12 19:52:31.110 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0") returned 
+2025-01-12 19:52:31.110 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞0") returned 
 2025-01-12 19:52:31.110 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 0) returned 
-2025-01-12 19:52:31.111 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 0','ªÛ«∞0',0)  {executed in 1 ms}
+2025-01-12 19:52:31.111 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0','ÔøΩÔøΩ«∞0',0)  {executed in 1 ms}
 2025-01-12 19:52:31.111 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.111 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-0','ªÛ«∞0',0)  {executed in 0 ms}
+2025-01-12 19:52:31.111 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+0','ÔøΩÔøΩ«∞0',0)  {executed in 0 ms}
 2025-01-12 19:52:31.111 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.111 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6314b195
 2025-01-12 19:52:31.111 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19419,13 +19442,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@32394a4b
 2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 1") returned 
-2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞1") returned 
+2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1") returned 
+2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞1") returned 
 2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 100) returned 
-2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 1','ªÛ«∞1',100)  {executed in 0 ms}
+2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1','ÔøΩÔøΩ«∞1',100)  {executed in 0 ms}
 2025-01-12 19:52:31.116 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.117 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-1','ªÛ«∞1',100)  {executed in 1 ms}
+2025-01-12 19:52:31.117 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+1','ÔøΩÔøΩ«∞1',100)  {executed in 1 ms}
 2025-01-12 19:52:31.117 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.117 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@8499717
 2025-01-12 19:52:31.117 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19473,13 +19496,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5a880dbe
 2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 2") returned 
-2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞2") returned 
+2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2") returned 
+2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞2") returned 
 2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 200) returned 
-2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 2','ªÛ«∞2',200)  {executed in 0 ms}
+2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2','ÔøΩÔøΩ«∞2',200)  {executed in 0 ms}
 2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-2','ªÛ«∞2',200)  {executed in 0 ms}
+2025-01-12 19:52:31.121 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+2','ÔøΩÔøΩ«∞2',200)  {executed in 0 ms}
 2025-01-12 19:52:31.122 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.122 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d2bda62
 2025-01-12 19:52:31.122 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19527,13 +19550,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.126 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.126 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@541b377d
 2025-01-12 19:52:31.126 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.126 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 3") returned 
-2025-01-12 19:52:31.126 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞3") returned 
+2025-01-12 19:52:31.126 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3") returned 
+2025-01-12 19:52:31.126 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞3") returned 
 2025-01-12 19:52:31.126 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 300) returned 
-2025-01-12 19:52:31.127 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 3','ªÛ«∞3',300)  {executed in 0 ms}
+2025-01-12 19:52:31.127 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3','ÔøΩÔøΩ«∞3',300)  {executed in 0 ms}
 2025-01-12 19:52:31.127 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.127 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-3','ªÛ«∞3',300)  {executed in 0 ms}
+2025-01-12 19:52:31.127 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+3','ÔøΩÔøΩ«∞3',300)  {executed in 0 ms}
 2025-01-12 19:52:31.127 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.127 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@720f29f0
 2025-01-12 19:52:31.127 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19581,13 +19604,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@41f53068
 2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 4") returned 
-2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞4") returned 
+2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4") returned 
+2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞4") returned 
 2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 400) returned 
-2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 4','ªÛ«∞4',400)  {executed in 0 ms}
+2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4','ÔøΩÔøΩ«∞4',400)  {executed in 0 ms}
 2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-4','ªÛ«∞4',400)  {executed in 0 ms}
+2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+4','ÔøΩÔøΩ«∞4',400)  {executed in 0 ms}
 2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@64898aa7
 2025-01-12 19:52:31.134 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19635,13 +19658,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@8cc682f
 2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 5") returned 
-2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞5") returned 
+2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5") returned 
+2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞5") returned 
 2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 500) returned 
-2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 5','ªÛ«∞5',500)  {executed in 0 ms}
+2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5','ÔøΩÔøΩ«∞5',500)  {executed in 0 ms}
 2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-5','ªÛ«∞5',500)  {executed in 0 ms}
+2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+5','ÔøΩÔøΩ«∞5',500)  {executed in 0 ms}
 2025-01-12 19:52:31.139 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.140 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@721fc0bb
 2025-01-12 19:52:31.140 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19689,13 +19712,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.144 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.144 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@be1c8aa
 2025-01-12 19:52:31.144 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.144 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 6") returned 
-2025-01-12 19:52:31.144 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞6") returned 
+2025-01-12 19:52:31.144 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6") returned 
+2025-01-12 19:52:31.144 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞6") returned 
 2025-01-12 19:52:31.144 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 600) returned 
-2025-01-12 19:52:31.145 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 6','ªÛ«∞6',600)  {executed in 0 ms}
+2025-01-12 19:52:31.145 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6','ÔøΩÔøΩ«∞6',600)  {executed in 0 ms}
 2025-01-12 19:52:31.145 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.146 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-6','ªÛ«∞6',600)  {executed in 1 ms}
+2025-01-12 19:52:31.146 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+6','ÔøΩÔøΩ«∞6',600)  {executed in 1 ms}
 2025-01-12 19:52:31.146 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.146 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@287f1aaf
 2025-01-12 19:52:31.146 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19743,13 +19766,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.150 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.150 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@26107e6d
 2025-01-12 19:52:31.150 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.150 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 7") returned 
-2025-01-12 19:52:31.151 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞7") returned 
+2025-01-12 19:52:31.150 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7") returned 
+2025-01-12 19:52:31.151 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞7") returned 
 2025-01-12 19:52:31.151 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 700) returned 
-2025-01-12 19:52:31.151 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 7','ªÛ«∞7',700)  {executed in 0 ms}
+2025-01-12 19:52:31.151 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7','ÔøΩÔøΩ«∞7',700)  {executed in 0 ms}
 2025-01-12 19:52:31.152 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.152 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-7','ªÛ«∞7',700)  {executed in 0 ms}
+2025-01-12 19:52:31.152 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+7','ÔøΩÔøΩ«∞7',700)  {executed in 0 ms}
 2025-01-12 19:52:31.152 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.152 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@39ba2234
 2025-01-12 19:52:31.152 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19797,13 +19820,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.156 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.156 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@f061449
 2025-01-12 19:52:31.156 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.156 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 8") returned 
-2025-01-12 19:52:31.156 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞8") returned 
+2025-01-12 19:52:31.156 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8") returned 
+2025-01-12 19:52:31.156 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞8") returned 
 2025-01-12 19:52:31.156 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 800) returned 
-2025-01-12 19:52:31.157 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 8','ªÛ«∞8',800)  {executed in 0 ms}
+2025-01-12 19:52:31.157 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8','ÔøΩÔøΩ«∞8',800)  {executed in 0 ms}
 2025-01-12 19:52:31.157 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.157 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-8','ªÛ«∞8',800)  {executed in 0 ms}
+2025-01-12 19:52:31.157 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+8','ÔøΩÔøΩ«∞8',800)  {executed in 0 ms}
 2025-01-12 19:52:31.157 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.157 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@27ad03
 2025-01-12 19:52:31.157 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19851,13 +19874,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 19:52:31.161 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.161 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2ea7e25d
 2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 9") returned 
-2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞9") returned 
+2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9") returned 
+2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞9") returned 
 2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 900) returned 
-2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 9','ªÛ«∞9',900)  {executed in 0 ms}
+2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9','ÔøΩÔøΩ«∞9',900)  {executed in 0 ms}
 2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-9','ªÛ«∞9',900)  {executed in 0 ms}
+2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+9','ÔøΩÔøΩ«∞9',900)  {executed in 0 ms}
 2025-01-12 19:52:31.162 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.163 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@73d76b9d
 2025-01-12 19:52:31.163 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -19919,9 +19942,9 @@ p1_0.pno=10  {executed in 1 ms}
 2025-01-12 19:52:31.180 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.181 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.181 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.181 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(6) returned ªÛ«∞º≥∏Ì 9
+2025-01-12 19:52:31.181 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(6) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9
 2025-01-12 19:52:31.182 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.182 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(7) returned ªÛ«∞9
+2025-01-12 19:52:31.182 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(7) returned ÔøΩÔøΩ«∞9
 2025-01-12 19:52:31.182 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.182 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(8) returned 900
 2025-01-12 19:52:31.182 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -19938,7 +19961,7 @@ p1_0.pno=10  {executed in 1 ms}
 |----|---------|------------|-----------|----|---------|---------|---------|
 |pno |del_flag |product_pno |file_name  |ord |pdesc    |pname    |price    |
 |----|---------|------------|-----------|----|---------|---------|---------|
-|10  |false    |10          |IMAGE1.jpg |0   |ªÛ«∞º≥∏Ì 9   |ªÛ«∞9      |900      |
+|10  |false    |10          |IMAGE1.jpg |0   |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9   |ÔøΩÔøΩ«∞9      |900      |
 |10  |[unread] |10          |IMAGE2.jpg |1   |[unread] |[unread] |[unread] |
 |----|---------|------------|-----------|----|---------|---------|---------|
 
@@ -19964,9 +19987,9 @@ p1_0.pno=10  {executed in 1 ms}
 2025-01-12 19:52:31.187 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 9
+2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9
 2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞9
+2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞9
 2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 900
 2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -19974,7 +19997,7 @@ p1_0.pno=10  {executed in 1 ms}
 |----|---------|-------|------|------|
 |pno |del_flag |pdesc  |pname |price |
 |----|---------|-------|------|------|
-|10  |false    |ªÛ«∞º≥∏Ì 9 |ªÛ«∞9   |900   |
+|10  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9 |ÔøΩÔøΩ«∞9   |900   |
 |----|---------|-------|------|------|
 
 2025-01-12 19:52:31.188 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned false
@@ -20020,11 +20043,11 @@ p1_0.pno=10  {executed in 1 ms}
 2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(update tbl_product set del_flag=?,pdesc=?,pname=?,price=? where pno=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@17debee7
 2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ.") returned 
-2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "10π¯ ªÛ«∞") returned 
+2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ.") returned 
+2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "10ÔøΩÔøΩ ÔøΩÔøΩ«∞") returned 
 2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 5000) returned 
 2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setLong(5, 10) returned 
-2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. update tbl_product set del_flag=0,pdesc='10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ.',pname='10π¯ ªÛ«∞',price=5000 where pno=10  {executed in 0 ms}
+2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. update tbl_product set del_flag=0,pdesc='10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ.',pname='10ÔøΩÔøΩ ÔøΩÔøΩ«∞',price=5000 where pno=10  {executed in 0 ms}
 2025-01-12 19:52:31.202 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
 2025-01-12 19:52:31.203 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getMaxRows() returned 0
 2025-01-12 19:52:31.203 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getQueryTimeout() returned 0
@@ -23710,9 +23733,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned 10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ.
+2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned 10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ.
 2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned 10π¯ ªÛ«∞
+2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned 10ÔøΩÔøΩ ÔøΩÔøΩ«∞
 2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 5000
 2025-01-12 19:52:31.758 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23725,9 +23748,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 8
+2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞8
+2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞8
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 800
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23740,9 +23763,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 7
+2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞7
+2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞7
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.759 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 700
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23755,9 +23778,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 6
+2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞6
+2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞6
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 600
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23770,9 +23793,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.760 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 5
+2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5
 2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞5
+2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞5
 2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 500
 2025-01-12 19:52:31.761 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23785,9 +23808,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 4
+2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4
 2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞4
+2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞4
 2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 400
 2025-01-12 19:52:31.762 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23800,9 +23823,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.764 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 3
+2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞3
+2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞3
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 300
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23815,9 +23838,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 2
+2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞2
+2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞2
 2025-01-12 19:52:31.765 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 200
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23830,9 +23853,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 1
+2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞1
+2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞1
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 100
 2025-01-12 19:52:31.766 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23845,9 +23868,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 0
+2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0
 2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞0
+2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞0
 2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 0
 2025-01-12 19:52:31.767 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -23859,16 +23882,16 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 1 ms}
 |----|---------|--------------|-------|------|---------------------------------------------------|----|
 |pno |del_flag |pdesc         |pname  |price |file_name                                          |ord |
 |----|---------|--------------|-------|------|---------------------------------------------------|----|
-|10  |false    |10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ. |10π¯ ªÛ«∞ |5000  |a0762ee9-1667-406b-907e-bf4b1e289368_NEWIMAGE1.jpg |0   |
-|9   |false    |ªÛ«∞º≥∏Ì 8        |ªÛ«∞8    |800   |IMAGE1.jpg                                         |0   |
-|8   |false    |ªÛ«∞º≥∏Ì 7        |ªÛ«∞7    |700   |IMAGE1.jpg                                         |0   |
-|7   |false    |ªÛ«∞º≥∏Ì 6        |ªÛ«∞6    |600   |IMAGE1.jpg                                         |0   |
-|6   |false    |ªÛ«∞º≥∏Ì 5        |ªÛ«∞5    |500   |IMAGE1.jpg                                         |0   |
-|5   |false    |ªÛ«∞º≥∏Ì 4        |ªÛ«∞4    |400   |IMAGE1.jpg                                         |0   |
-|4   |false    |ªÛ«∞º≥∏Ì 3        |ªÛ«∞3    |300   |IMAGE1.jpg                                         |0   |
-|3   |false    |ªÛ«∞º≥∏Ì 2        |ªÛ«∞2    |200   |IMAGE1.jpg                                         |0   |
-|2   |false    |ªÛ«∞º≥∏Ì 1        |ªÛ«∞1    |100   |IMAGE1.jpg                                         |0   |
-|1   |false    |ªÛ«∞º≥∏Ì 0        |ªÛ«∞0    |0     |IMAGE1.jpg                                         |0   |
+|10  |false    |10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ. |10ÔøΩÔøΩ ÔøΩÔøΩ«∞ |5000  |a0762ee9-1667-406b-907e-bf4b1e289368_NEWIMAGE1.jpg |0   |
+|9   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8        |ÔøΩÔøΩ«∞8    |800   |IMAGE1.jpg                                         |0   |
+|8   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7        |ÔøΩÔøΩ«∞7    |700   |IMAGE1.jpg                                         |0   |
+|7   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6        |ÔøΩÔøΩ«∞6    |600   |IMAGE1.jpg                                         |0   |
+|6   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5        |ÔøΩÔøΩ«∞5    |500   |IMAGE1.jpg                                         |0   |
+|5   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4        |ÔøΩÔøΩ«∞4    |400   |IMAGE1.jpg                                         |0   |
+|4   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3        |ÔøΩÔøΩ«∞3    |300   |IMAGE1.jpg                                         |0   |
+|3   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2        |ÔøΩÔøΩ«∞2    |200   |IMAGE1.jpg                                         |0   |
+|2   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1        |ÔøΩÔøΩ«∞1    |100   |IMAGE1.jpg                                         |0   |
+|1   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0        |ÔøΩÔøΩ«∞0    |0     |IMAGE1.jpg                                         |0   |
 |----|---------|--------------|-------|------|---------------------------------------------------|----|
 
 2025-01-12 19:52:31.769 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned false
@@ -23903,16 +23926,16 @@ where il1_0.ord=0 and p1_0.del_flag=0  {executed in 1 ms}
 2025-01-12 19:52:31.779 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(true) returned 
 2025-01-12 19:52:31.779 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
 2025-01-12 19:52:31.779 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=10, pname=10π¯ ªÛ«∞, price=5000, pdesc=10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ., delFlag=false, files=[], uploadFileNames=[a0762ee9-1667-406b-907e-bf4b1e289368_NEWIMAGE1.jpg])
-2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=9, pname=ªÛ«∞8, price=800, pdesc=ªÛ«∞º≥∏Ì 8, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=8, pname=ªÛ«∞7, price=700, pdesc=ªÛ«∞º≥∏Ì 7, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=7, pname=ªÛ«∞6, price=600, pdesc=ªÛ«∞º≥∏Ì 6, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=6, pname=ªÛ«∞5, price=500, pdesc=ªÛ«∞º≥∏Ì 5, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=5, pname=ªÛ«∞4, price=400, pdesc=ªÛ«∞º≥∏Ì 4, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=4, pname=ªÛ«∞3, price=300, pdesc=ªÛ«∞º≥∏Ì 3, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=3, pname=ªÛ«∞2, price=200, pdesc=ªÛ«∞º≥∏Ì 2, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 19:52:31.785 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=2, pname=ªÛ«∞1, price=100, pdesc=ªÛ«∞º≥∏Ì 1, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 19:52:31.785 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=1, pname=ªÛ«∞0, price=0, pdesc=ªÛ«∞º≥∏Ì 0, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=10, pname=10ÔøΩÔøΩ ÔøΩÔøΩ«∞, price=5000, pdesc=10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ., delFlag=false, files=[], uploadFileNames=[a0762ee9-1667-406b-907e-bf4b1e289368_NEWIMAGE1.jpg])
+2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=9, pname=ÔøΩÔøΩ«∞8, price=800, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=8, pname=ÔøΩÔøΩ«∞7, price=700, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=7, pname=ÔøΩÔøΩ«∞6, price=600, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=6, pname=ÔøΩÔøΩ«∞5, price=500, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=5, pname=ÔøΩÔøΩ«∞4, price=400, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=4, pname=ÔøΩÔøΩ«∞3, price=300, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.784 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=3, pname=ÔøΩÔøΩ«∞2, price=200, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.785 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=2, pname=ÔøΩÔøΩ«∞1, price=100, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 19:52:31.785 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=1, pname=ÔøΩÔøΩ«∞0, price=0, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
 2025-01-12 19:52:31.790 INFO  [Test worker] l.log4j2 - 1. Connection.getAutoCommit() returned true
 2025-01-12 19:52:31.790 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(false) returned 
 2025-01-12 19:52:31.793 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
@@ -23944,13 +23967,13 @@ p1_0.pno=11  {executed in 0 ms}
 2025-01-12 19:52:31.801 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 19:52:31.801 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@eecf56b
 2025-01-12 19:52:31.801 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ.") returned 
-2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªı∑ŒøÓ ªÛ«∞") returned 
+2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ.") returned 
+2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞") returned 
 2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 1000) returned 
-2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ.','ªı∑ŒøÓ ªÛ«∞',1000)  {executed in 0 ms}
+2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ.','ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞',1000)  {executed in 0 ms}
 2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'Ω≈±‘ 
-√ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ.','ªı∑ŒøÓ ªÛ«∞',1000)  {executed in 0 ms}
+2025-01-12 19:52:31.802 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩ≈±ÔøΩ 
+ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ.','ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞',1000)  {executed in 0 ms}
 2025-01-12 19:52:31.803 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.803 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@317e9cf5
 2025-01-12 19:52:31.803 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -24209,13 +24232,13 @@ by t1_0.tno desc limit 10,10  {executed in 0 ms}
 2025-01-12 19:52:31.946 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_todo (complete,due_date,title,writer) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2ef1b7f4
 2025-01-12 19:52:31.946 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
 2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setDate(2, 2024-12-04) returned 
-2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "º≠∫ÒΩ∫ ≈◊Ω∫∆Æ") returned 
+2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩÔøΩÔøΩ ÔøΩ◊ΩÔøΩ∆Æ") returned 
 2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(4, "tester") returned 
-2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. insert into tbl_todo (complete,due_date,title,writer) values (0,'12/04/2024 00:00:00.000','º≠∫ÒΩ∫ 
-≈◊Ω∫∆Æ','tester')  {executed in 0 ms}
+2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. insert into tbl_todo (complete,due_date,title,writer) values (0,'12/04/2024 00:00:00.000','ÔøΩÔøΩÔøΩÔøΩ 
+ÔøΩ◊ΩÔøΩ∆Æ','tester')  {executed in 0 ms}
 2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
 2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_todo (complete,due_date,title,writer) values (0,'12/04/2024 
-00:00:00.000','º≠∫ÒΩ∫ ≈◊Ω∫∆Æ','tester')  {executed in 0 ms}
+00:00:00.000','ÔøΩÔøΩÔøΩÔøΩ ÔøΩ◊ΩÔøΩ∆Æ','tester')  {executed in 0 ms}
 2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3e45ca81
 2025-01-12 19:52:31.947 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -24516,7 +24539,7 @@ by t1_0.tno desc limit 10,10  {executed in 0 ms}
 2025-01-12 20:24:35.909 INFO  [restartedMain] o.z.m.MallapiApplication - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 20:24:36.076 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2025-01-12 20:24:36.094 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 5 JPA repository interfaces.
-2025-01-12 20:24:36.152 INFO  [Test worker] o.z.m.MallapiApplicationTests - Starting MallapiApplicationTests using Java 17.0.13 with PID 39932 (started by ±Ëº∫¿∫ in C:\Users\±Ëº∫¿∫\Documents\mallapi)
+2025-01-12 20:24:36.152 INFO  [Test worker] o.z.m.MallapiApplicationTests - Starting MallapiApplicationTests using Java 17.0.13 with PID 39932 (started by ÔøΩËº∫ÔøΩÔøΩ in C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi)
 2025-01-12 20:24:36.154 INFO  [Test worker] o.z.m.MallapiApplicationTests - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 20:24:36.204 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
 2025-01-12 20:24:36.205 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
@@ -24848,7 +24871,7 @@ by t1_0.tno desc limit 10,10  {executed in 0 ms}
 2025-01-12 20:24:39.062 INFO  [Test worker] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-01-12 20:24:39.346 INFO  [Test worker] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
 2025-01-12 20:24:40.008 INFO  [Test worker] o.z.m.u.CustomFileUtil - -------------------------------------
-2025-01-12 20:24:40.008 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\±Ëº∫¿∫\Documents\mallapi\upload
+2025-01-12 20:24:40.008 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi\upload
 2025-01-12 20:24:40.172 WARN  [Test worker] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-01-12 20:24:40.374 INFO  [Test worker] o.z.m.c.CustomSecurityConfig - ---------------------security config---------------------------
 2025-01-12 20:24:40.454 INFO  [Test worker] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31ee5a9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67add4c9, org.springframework.security.web.context.SecurityContextHolderFilter@7ae2f5b6, org.springframework.security.web.header.HeaderWriterFilter@1320d929, org.springframework.web.filter.CorsFilter@491afa9b, org.springframework.security.web.authentication.logout.LogoutFilter@33ef701e, org.zerock.mallapi.security.filter.JWTCheckFilter@147a8d7c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@76320633, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7441eed3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72de1d86, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60bd11f7, org.springframework.security.web.session.SessionManagementFilter@6cc91654, org.springframework.security.web.access.ExceptionTranslationFilter@4c821dc7]
@@ -25024,7 +25047,7 @@ and il1_0.ord=0 order by ci1_0.cino desc  {executed in 1 ms}
 2025-01-12 20:24:42.529 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:42.529 INFO  [Test worker] l.log4j2 - 1. ResultSet.getLong(3) returned 5
 2025-01-12 20:24:42.529 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:42.529 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞4
+2025-01-12 20:24:42.529 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞4
 2025-01-12 20:24:42.530 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:42.530 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 400
 2025-01-12 20:24:42.530 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -25034,7 +25057,7 @@ and il1_0.ord=0 order by ci1_0.cino desc  {executed in 1 ms}
 |-----|----|----|------|------|-----------|
 |cino |qty |pno |pname |price |file_name  |
 |-----|----|----|------|------|-----------|
-|2    |1   |5   |ªÛ«∞4   |400   |IMAGE1.jpg |
+|2    |1   |5   |ÔøΩÔøΩ«∞4   |400   |IMAGE1.jpg |
 |-----|----|----|------|------|-----------|
 
 2025-01-12 20:24:42.530 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned false
@@ -25045,7 +25068,7 @@ and il1_0.ord=0 order by ci1_0.cino desc  {executed in 1 ms}
 2025-01-12 20:24:42.531 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.close() returned 
 2025-01-12 20:24:42.531 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
 2025-01-12 20:24:42.531 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-12 20:24:42.540 INFO  [Test worker] o.z.m.r.CartRepositoryTests - CartItemListDTO(cino=2, qty=1, pno=5, pname=ªÛ«∞4, price=400, imageFile=IMAGE1.jpg)
+2025-01-12 20:24:42.540 INFO  [Test worker] o.z.m.r.CartRepositoryTests - CartItemListDTO(cino=2, qty=1, pno=5, pname=ÔøΩÔøΩ«∞4, price=400, imageFile=IMAGE1.jpg)
 2025-01-12 20:24:42.547 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:42.547 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(select c1_0.cno from tbl_cart c1_0 join tbl_cart_item ci1_0 on ci1_0.cart_cno=c1_0.cno where ci1_0.cino=?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@57e6fd09
 2025-01-12 20:24:42.547 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setLong(1, 1) returned 
@@ -26167,9 +26190,9 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.318 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.318 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.318 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.319 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(6) returned ªÛ«∞º≥∏Ì 0
+2025-01-12 20:24:43.319 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(6) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0
 2025-01-12 20:24:43.319 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.319 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(7) returned ªÛ«∞0
+2025-01-12 20:24:43.319 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(7) returned ÔøΩÔøΩ«∞0
 2025-01-12 20:24:43.319 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.319 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(8) returned 0
 2025-01-12 20:24:43.319 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26186,7 +26209,7 @@ p1_0.pno=1  {executed in 0 ms}
 |----|---------|------------|-----------|----|---------|---------|---------|
 |pno |del_flag |product_pno |file_name  |ord |pdesc    |pname    |price    |
 |----|---------|------------|-----------|----|---------|---------|---------|
-|1   |false    |1           |IMAGE1.jpg |0   |ªÛ«∞º≥∏Ì 0   |ªÛ«∞0      |0        |
+|1   |false    |1           |IMAGE1.jpg |0   |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0   |ÔøΩÔøΩ«∞0      |0        |
 |1   |[unread] |1           |IMAGE2.jpg |1   |[unread] |[unread] |[unread] |
 |----|---------|------------|-----------|----|---------|---------|---------|
 
@@ -26198,7 +26221,7 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.322 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.close() returned 
 2025-01-12 20:24:43.322 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
 2025-01-12 20:24:43.322 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-12 20:24:43.325 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - Product(pno=1, pname=ªÛ«∞0, price=0, pdesc=ªÛ«∞º≥∏Ì 0, delFlag=false)
+2025-01-12 20:24:43.325 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - Product(pno=1, pname=ÔøΩÔøΩ«∞0, price=0, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0, delFlag=false)
 2025-01-12 20:24:43.325 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [ProductImage(fileName=IMAGE1.jpg, ord=0), ProductImage(fileName=IMAGE2.jpg, ord=1)]
 2025-01-12 20:24:43.339 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.339 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(select p1_0.pno,p1_0.del_flag,p1_0.pdesc,p1_0.pname,p1_0.price,il1_0.file_name,il1_0.ord from tbl_product p1_0 left join product_image_list il1_0 on p1_0.pno=il1_0.product_pno where il1_0.ord=0 and p1_0.del_flag=0 order by p1_0.pno desc limit ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@33918d45
@@ -26213,9 +26236,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.339 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ.
+2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ.
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªı∑ŒøÓ ªÛ«∞
+2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 1000
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26228,9 +26251,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 8
+2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞8
+2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞8
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 800
 2025-01-12 20:24:43.340 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26243,9 +26266,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 7
+2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞7
+2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞7
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 700
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26258,9 +26281,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.341 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 6
+2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞6
+2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞6
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 600
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26273,9 +26296,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 5
+2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞5
+2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞5
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 500
 2025-01-12 20:24:43.342 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26288,9 +26311,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 4
+2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞4
+2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞4
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 400
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26303,9 +26326,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 3
+2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞3
+2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞3
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 300
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26318,9 +26341,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 2
+2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞2
+2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞2
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 200
 2025-01-12 20:24:43.343 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26333,9 +26356,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 0
+2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0
 2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞0
+2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞0
 2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 0
 2025-01-12 20:24:43.345 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26347,15 +26370,15 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 |----|---------|-------------|-------|------|-----------------------------------------------|----|
 |pno |del_flag |pdesc        |pname  |price |file_name                                      |ord |
 |----|---------|-------------|-------|------|-----------------------------------------------|----|
-|11  |false    |Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ. |ªı∑ŒøÓ ªÛ«∞ |1000  |74c65181-c36c-42af-8843-941759409be9_Test1.jpg |0   |
-|9   |false    |ªÛ«∞º≥∏Ì 8       |ªÛ«∞8    |800   |IMAGE1.jpg                                     |0   |
-|8   |false    |ªÛ«∞º≥∏Ì 7       |ªÛ«∞7    |700   |IMAGE1.jpg                                     |0   |
-|7   |false    |ªÛ«∞º≥∏Ì 6       |ªÛ«∞6    |600   |IMAGE1.jpg                                     |0   |
-|6   |false    |ªÛ«∞º≥∏Ì 5       |ªÛ«∞5    |500   |IMAGE1.jpg                                     |0   |
-|5   |false    |ªÛ«∞º≥∏Ì 4       |ªÛ«∞4    |400   |IMAGE1.jpg                                     |0   |
-|4   |false    |ªÛ«∞º≥∏Ì 3       |ªÛ«∞3    |300   |IMAGE1.jpg                                     |0   |
-|3   |false    |ªÛ«∞º≥∏Ì 2       |ªÛ«∞2    |200   |IMAGE1.jpg                                     |0   |
-|1   |false    |ªÛ«∞º≥∏Ì 0       |ªÛ«∞0    |0     |IMAGE1.jpg                                     |0   |
+|11  |false    |ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ. |ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞ |1000  |74c65181-c36c-42af-8843-941759409be9_Test1.jpg |0   |
+|9   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8       |ÔøΩÔøΩ«∞8    |800   |IMAGE1.jpg                                     |0   |
+|8   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7       |ÔøΩÔøΩ«∞7    |700   |IMAGE1.jpg                                     |0   |
+|7   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6       |ÔøΩÔøΩ«∞6    |600   |IMAGE1.jpg                                     |0   |
+|6   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5       |ÔøΩÔøΩ«∞5    |500   |IMAGE1.jpg                                     |0   |
+|5   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4       |ÔøΩÔøΩ«∞4    |400   |IMAGE1.jpg                                     |0   |
+|4   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3       |ÔøΩÔøΩ«∞3    |300   |IMAGE1.jpg                                     |0   |
+|3   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2       |ÔøΩÔøΩ«∞2    |200   |IMAGE1.jpg                                     |0   |
+|1   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0       |ÔøΩÔøΩ«∞0    |0     |IMAGE1.jpg                                     |0   |
 |----|---------|-------------|-------|------|-----------------------------------------------|----|
 
 2025-01-12 20:24:43.346 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned false
@@ -26366,15 +26389,15 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.346 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.close() returned 
 2025-01-12 20:24:43.346 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
 2025-01-12 20:24:43.346 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=11, pname=ªı∑ŒøÓ ªÛ«∞, price=1000, pdesc=Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ., delFlag=false), ProductImage(fileName=74c65181-c36c-42af-8843-941759409be9_Test1.jpg, ord=0)]
-2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=9, pname=ªÛ«∞8, price=800, pdesc=ªÛ«∞º≥∏Ì 8, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
-2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=8, pname=ªÛ«∞7, price=700, pdesc=ªÛ«∞º≥∏Ì 7, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
-2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=7, pname=ªÛ«∞6, price=600, pdesc=ªÛ«∞º≥∏Ì 6, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
-2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=6, pname=ªÛ«∞5, price=500, pdesc=ªÛ«∞º≥∏Ì 5, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
-2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=5, pname=ªÛ«∞4, price=400, pdesc=ªÛ«∞º≥∏Ì 4, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
-2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=4, pname=ªÛ«∞3, price=300, pdesc=ªÛ«∞º≥∏Ì 3, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
-2025-01-12 20:24:43.350 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=3, pname=ªÛ«∞2, price=200, pdesc=ªÛ«∞º≥∏Ì 2, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
-2025-01-12 20:24:43.350 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=1, pname=ªÛ«∞0, price=0, pdesc=ªÛ«∞º≥∏Ì 0, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
+2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=11, pname=ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞, price=1000, pdesc=ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ., delFlag=false), ProductImage(fileName=74c65181-c36c-42af-8843-941759409be9_Test1.jpg, ord=0)]
+2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=9, pname=ÔøΩÔøΩ«∞8, price=800, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
+2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=8, pname=ÔøΩÔøΩ«∞7, price=700, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
+2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=7, pname=ÔøΩÔøΩ«∞6, price=600, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
+2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=6, pname=ÔøΩÔøΩ«∞5, price=500, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
+2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=5, pname=ÔøΩÔøΩ«∞4, price=400, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
+2025-01-12 20:24:43.349 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=4, pname=ÔøΩÔøΩ«∞3, price=300, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
+2025-01-12 20:24:43.350 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=3, pname=ÔøΩÔøΩ«∞2, price=200, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
+2025-01-12 20:24:43.350 INFO  [Test worker] o.z.m.r.ProductRepositoryTests - [Product(pno=1, pname=ÔøΩÔøΩ«∞0, price=0, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0, delFlag=false), ProductImage(fileName=IMAGE1.jpg, ord=0)]
 2025-01-12 20:24:43.352 INFO  [Test worker] l.log4j2 - 1. Connection.getAutoCommit() returned true
 2025-01-12 20:24:43.353 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(false) returned 
 2025-01-12 20:24:43.353 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
@@ -26389,9 +26412,9 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 0
+2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0
 2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞0
+2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞0
 2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 0
 2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -26399,7 +26422,7 @@ p1_0.pno=1  {executed in 0 ms}
 |----|---------|-------|------|------|
 |pno |del_flag |pdesc  |pname |price |
 |----|---------|-------|------|------|
-|1   |false    |ªÛ«∞º≥∏Ì 0 |ªÛ«∞0   |0     |
+|1   |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0 |ÔøΩÔøΩ«∞0   |0     |
 |----|---------|-------|------|------|
 
 2025-01-12 20:24:43.354 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned false
@@ -26433,13 +26456,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@639d8311
 2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 0") returned 
-2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞0") returned 
+2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0") returned 
+2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞0") returned 
 2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 0) returned 
-2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 0','ªÛ«∞0',0)  {executed in 0 ms}
+2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0','ÔøΩÔøΩ«∞0',0)  {executed in 0 ms}
 2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-0','ªÛ«∞0',0)  {executed in 0 ms}
+2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+0','ÔøΩÔøΩ«∞0',0)  {executed in 0 ms}
 2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@91ae62
 2025-01-12 20:24:43.368 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26487,13 +26510,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.374 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.374 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6666410a
 2025-01-12 20:24:43.374 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.374 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 1") returned 
-2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞1") returned 
+2025-01-12 20:24:43.374 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1") returned 
+2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞1") returned 
 2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 100) returned 
-2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 1','ªÛ«∞1',100)  {executed in 0 ms}
+2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1','ÔøΩÔøΩ«∞1',100)  {executed in 0 ms}
 2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-1','ªÛ«∞1',100)  {executed in 0 ms}
+2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+1','ÔøΩÔøΩ«∞1',100)  {executed in 0 ms}
 2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@26a8e303
 2025-01-12 20:24:43.375 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26541,13 +26564,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.379 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.379 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2532e07e
 2025-01-12 20:24:43.379 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.379 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 2") returned 
-2025-01-12 20:24:43.379 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞2") returned 
+2025-01-12 20:24:43.379 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2") returned 
+2025-01-12 20:24:43.379 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞2") returned 
 2025-01-12 20:24:43.379 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 200) returned 
-2025-01-12 20:24:43.380 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 2','ªÛ«∞2',200)  {executed in 1 ms}
+2025-01-12 20:24:43.380 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2','ÔøΩÔøΩ«∞2',200)  {executed in 1 ms}
 2025-01-12 20:24:43.380 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.380 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-2','ªÛ«∞2',200)  {executed in 0 ms}
+2025-01-12 20:24:43.380 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+2','ÔøΩÔøΩ«∞2',200)  {executed in 0 ms}
 2025-01-12 20:24:43.380 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.380 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@e2cf713
 2025-01-12 20:24:43.380 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26595,13 +26618,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.385 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.385 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@584bfadb
 2025-01-12 20:24:43.385 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.385 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 3") returned 
-2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞3") returned 
+2025-01-12 20:24:43.385 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3") returned 
+2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞3") returned 
 2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 300) returned 
-2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 3','ªÛ«∞3',300)  {executed in 0 ms}
+2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3','ÔøΩÔøΩ«∞3',300)  {executed in 0 ms}
 2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-3','ªÛ«∞3',300)  {executed in 0 ms}
+2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+3','ÔøΩÔøΩ«∞3',300)  {executed in 0 ms}
 2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@37844399
 2025-01-12 20:24:43.386 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26649,13 +26672,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5f56d7bd
 2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 4") returned 
-2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞4") returned 
+2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4") returned 
+2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞4") returned 
 2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 400) returned 
-2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 4','ªÛ«∞4',400)  {executed in 0 ms}
+2025-01-12 20:24:43.391 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4','ÔøΩÔøΩ«∞4',400)  {executed in 0 ms}
 2025-01-12 20:24:43.392 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.392 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-4','ªÛ«∞4',400)  {executed in 0 ms}
+2025-01-12 20:24:43.392 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+4','ÔøΩÔøΩ«∞4',400)  {executed in 0 ms}
 2025-01-12 20:24:43.392 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.392 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6451fd0e
 2025-01-12 20:24:43.392 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26703,13 +26726,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.396 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.396 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4cb20a1b
 2025-01-12 20:24:43.396 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.396 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 5") returned 
-2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞5") returned 
+2025-01-12 20:24:43.396 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5") returned 
+2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞5") returned 
 2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 500) returned 
-2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 5','ªÛ«∞5',500)  {executed in 0 ms}
+2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5','ÔøΩÔøΩ«∞5',500)  {executed in 0 ms}
 2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-5','ªÛ«∞5',500)  {executed in 0 ms}
+2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+5','ÔøΩÔøΩ«∞5',500)  {executed in 0 ms}
 2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@17839acd
 2025-01-12 20:24:43.397 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26757,13 +26780,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.401 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.401 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1740a7b0
 2025-01-12 20:24:43.401 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.401 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 6") returned 
-2025-01-12 20:24:43.401 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞6") returned 
+2025-01-12 20:24:43.401 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6") returned 
+2025-01-12 20:24:43.401 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞6") returned 
 2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 600) returned 
-2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 6','ªÛ«∞6',600)  {executed in 0 ms}
+2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6','ÔøΩÔøΩ«∞6',600)  {executed in 0 ms}
 2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-6','ªÛ«∞6',600)  {executed in 0 ms}
+2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+6','ÔøΩÔøΩ«∞6',600)  {executed in 0 ms}
 2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@27ddc4d3
 2025-01-12 20:24:43.402 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26811,13 +26834,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.407 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.407 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@55f0ba66
 2025-01-12 20:24:43.407 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.407 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 7") returned 
-2025-01-12 20:24:43.407 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞7") returned 
+2025-01-12 20:24:43.407 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7") returned 
+2025-01-12 20:24:43.407 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞7") returned 
 2025-01-12 20:24:43.407 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 700) returned 
-2025-01-12 20:24:43.408 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 7','ªÛ«∞7',700)  {executed in 1 ms}
+2025-01-12 20:24:43.408 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7','ÔøΩÔøΩ«∞7',700)  {executed in 1 ms}
 2025-01-12 20:24:43.408 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.408 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-7','ªÛ«∞7',700)  {executed in 0 ms}
+2025-01-12 20:24:43.408 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+7','ÔøΩÔøΩ«∞7',700)  {executed in 0 ms}
 2025-01-12 20:24:43.408 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.408 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5f19dea8
 2025-01-12 20:24:43.408 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26865,13 +26888,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@257f8040
 2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 8") returned 
-2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞8") returned 
+2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8") returned 
+2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞8") returned 
 2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 800) returned 
-2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 8','ªÛ«∞8',800)  {executed in 0 ms}
+2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8','ÔøΩÔøΩ«∞8',800)  {executed in 0 ms}
 2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-8','ªÛ«∞8',800)  {executed in 0 ms}
+2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+8','ÔøΩÔøΩ«∞8',800)  {executed in 0 ms}
 2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@372ea7fa
 2025-01-12 20:24:43.412 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26919,13 +26942,13 @@ p1_0.pno=1  {executed in 0 ms}
 2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@287c4e96
 2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ªÛ«∞º≥∏Ì 9") returned 
-2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªÛ«∞9") returned 
+2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9") returned 
+2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩ«∞9") returned 
 2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 900) returned 
-2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 9','ªÛ«∞9',900)  {executed in 0 ms}
+2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9','ÔøΩÔøΩ«∞9',900)  {executed in 0 ms}
 2025-01-12 20:24:43.416 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.417 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ªÛ«∞º≥∏Ì 
-9','ªÛ«∞9',900)  {executed in 1 ms}
+2025-01-12 20:24:43.417 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 
+9','ÔøΩÔøΩ«∞9',900)  {executed in 1 ms}
 2025-01-12 20:24:43.417 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.417 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@67c6b166
 2025-01-12 20:24:43.417 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -26987,9 +27010,9 @@ p1_0.pno=10  {executed in 0 ms}
 2025-01-12 20:24:43.424 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.424 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned true
 2025-01-12 20:24:43.424 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.424 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(6) returned 10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ.
+2025-01-12 20:24:43.424 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(6) returned 10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ.
 2025-01-12 20:24:43.424 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.425 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(7) returned 10π¯ ªÛ«∞
+2025-01-12 20:24:43.425 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(7) returned 10ÔøΩÔøΩ ÔøΩÔøΩ«∞
 2025-01-12 20:24:43.425 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.425 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(8) returned 5000
 2025-01-12 20:24:43.425 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -27015,7 +27038,7 @@ p1_0.pno=10  {executed in 0 ms}
 |----|---------|------------|---------------------------------------------------|----|--------------|---------|---------|
 |pno |del_flag |product_pno |file_name                                          |ord |pdesc         |pname    |price    |
 |----|---------|------------|---------------------------------------------------|----|--------------|---------|---------|
-|10  |true     |10          |a0762ee9-1667-406b-907e-bf4b1e289368_NEWIMAGE1.jpg |0   |10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ. |10π¯ ªÛ«∞   |5000     |
+|10  |true     |10          |a0762ee9-1667-406b-907e-bf4b1e289368_NEWIMAGE1.jpg |0   |10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ. |10ÔøΩÔøΩ ÔøΩÔøΩ«∞   |5000     |
 |10  |[unread] |10          |d5046990-f6a1-4feb-bf32-9e42761beff8_NEWIMAGE2.jpg |1   |[unread]      |[unread] |[unread] |
 |10  |[unread] |10          |7649bce7-95f9-49db-9692-00fe135ac7b7_NEWIMAGE3.jpg |2   |[unread]      |[unread] |[unread] |
 |----|---------|------------|---------------------------------------------------|----|--------------|---------|---------|
@@ -27042,9 +27065,9 @@ p1_0.pno=10  {executed in 0 ms}
 2025-01-12 20:24:43.428 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.428 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned true
 2025-01-12 20:24:43.428 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned 10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ.
+2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned 10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ.
 2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned 10π¯ ªÛ«∞
+2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned 10ÔøΩÔøΩ ÔøΩÔøΩ«∞
 2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 5000
 2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -27052,7 +27075,7 @@ p1_0.pno=10  {executed in 0 ms}
 |----|---------|--------------|-------|------|
 |pno |del_flag |pdesc         |pname  |price |
 |----|---------|--------------|-------|------|
-|10  |true     |10π¯ ªÛ«∞ º≥∏Ì¿‘¥œ¥Ÿ. |10π¯ ªÛ«∞ |5000  |
+|10  |true     |10ÔøΩÔøΩ ÔøΩÔøΩ«∞ ÔøΩÔøΩÔøΩÔøΩÔøΩ‘¥œ¥ÔøΩ. |10ÔøΩÔøΩ ÔøΩÔøΩ«∞ |5000  |
 |----|---------|--------------|-------|------|
 
 2025-01-12 20:24:43.429 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned false
@@ -30800,9 +30823,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.862 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 9
+2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞9
+2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞9
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 900
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30815,9 +30838,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 8
+2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞8
+2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞8
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 800
 2025-01-12 20:24:43.863 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30830,9 +30853,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 7
+2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞7
+2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞7
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 700
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30845,9 +30868,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 6
+2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞6
+2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞6
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 600
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30860,9 +30883,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 5
+2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞5
+2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞5
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 500
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30875,9 +30898,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 4
+2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞4
+2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞4
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 400
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30890,9 +30913,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.864 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 3
+2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞3
+2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞3
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 300
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30905,9 +30928,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 2
+2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞2
+2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞2
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 200
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30920,9 +30943,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 1
+2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞1
+2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞1
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 100
 2025-01-12 20:24:43.865 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30935,9 +30958,9 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ªÛ«∞º≥∏Ì 0
+2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(3) returned ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0
 2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ªÛ«∞0
+2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩ«∞0
 2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(5) returned 0
 2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -30949,16 +30972,16 @@ and p1_0.del_flag=0 order by p1_0.pno desc limit 10  {executed in 0 ms}
 |----|---------|-------|------|------|-----------|----|
 |pno |del_flag |pdesc  |pname |price |file_name  |ord |
 |----|---------|-------|------|------|-----------|----|
-|21  |false    |ªÛ«∞º≥∏Ì 9 |ªÛ«∞9   |900   |IMAGE1.jpg |0   |
-|20  |false    |ªÛ«∞º≥∏Ì 8 |ªÛ«∞8   |800   |IMAGE1.jpg |0   |
-|19  |false    |ªÛ«∞º≥∏Ì 7 |ªÛ«∞7   |700   |IMAGE1.jpg |0   |
-|18  |false    |ªÛ«∞º≥∏Ì 6 |ªÛ«∞6   |600   |IMAGE1.jpg |0   |
-|17  |false    |ªÛ«∞º≥∏Ì 5 |ªÛ«∞5   |500   |IMAGE1.jpg |0   |
-|16  |false    |ªÛ«∞º≥∏Ì 4 |ªÛ«∞4   |400   |IMAGE1.jpg |0   |
-|15  |false    |ªÛ«∞º≥∏Ì 3 |ªÛ«∞3   |300   |IMAGE1.jpg |0   |
-|14  |false    |ªÛ«∞º≥∏Ì 2 |ªÛ«∞2   |200   |IMAGE1.jpg |0   |
-|13  |false    |ªÛ«∞º≥∏Ì 1 |ªÛ«∞1   |100   |IMAGE1.jpg |0   |
-|12  |false    |ªÛ«∞º≥∏Ì 0 |ªÛ«∞0   |0     |IMAGE1.jpg |0   |
+|21  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9 |ÔøΩÔøΩ«∞9   |900   |IMAGE1.jpg |0   |
+|20  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8 |ÔøΩÔøΩ«∞8   |800   |IMAGE1.jpg |0   |
+|19  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7 |ÔøΩÔøΩ«∞7   |700   |IMAGE1.jpg |0   |
+|18  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6 |ÔøΩÔøΩ«∞6   |600   |IMAGE1.jpg |0   |
+|17  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5 |ÔøΩÔøΩ«∞5   |500   |IMAGE1.jpg |0   |
+|16  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4 |ÔøΩÔøΩ«∞4   |400   |IMAGE1.jpg |0   |
+|15  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3 |ÔøΩÔøΩ«∞3   |300   |IMAGE1.jpg |0   |
+|14  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2 |ÔøΩÔøΩ«∞2   |200   |IMAGE1.jpg |0   |
+|13  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1 |ÔøΩÔøΩ«∞1   |100   |IMAGE1.jpg |0   |
+|12  |false    |ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0 |ÔøΩÔøΩ«∞0   |0     |IMAGE1.jpg |0   |
 |----|---------|-------|------|------|-----------|----|
 
 2025-01-12 20:24:43.866 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned false
@@ -30993,16 +31016,16 @@ where il1_0.ord=0 and p1_0.del_flag=0  {executed in 0 ms}
 2025-01-12 20:24:43.876 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(true) returned 
 2025-01-12 20:24:43.876 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
 2025-01-12 20:24:43.876 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=21, pname=ªÛ«∞9, price=900, pdesc=ªÛ«∞º≥∏Ì 9, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=20, pname=ªÛ«∞8, price=800, pdesc=ªÛ«∞º≥∏Ì 8, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=19, pname=ªÛ«∞7, price=700, pdesc=ªÛ«∞º≥∏Ì 7, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=18, pname=ªÛ«∞6, price=600, pdesc=ªÛ«∞º≥∏Ì 6, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=17, pname=ªÛ«∞5, price=500, pdesc=ªÛ«∞º≥∏Ì 5, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=16, pname=ªÛ«∞4, price=400, pdesc=ªÛ«∞º≥∏Ì 4, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=15, pname=ªÛ«∞3, price=300, pdesc=ªÛ«∞º≥∏Ì 3, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=14, pname=ªÛ«∞2, price=200, pdesc=ªÛ«∞º≥∏Ì 2, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=13, pname=ªÛ«∞1, price=100, pdesc=ªÛ«∞º≥∏Ì 1, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
-2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=12, pname=ªÛ«∞0, price=0, pdesc=ªÛ«∞º≥∏Ì 0, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=21, pname=ÔøΩÔøΩ«∞9, price=900, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 9, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=20, pname=ÔøΩÔøΩ«∞8, price=800, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 8, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=19, pname=ÔøΩÔøΩ«∞7, price=700, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 7, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=18, pname=ÔøΩÔøΩ«∞6, price=600, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 6, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=17, pname=ÔøΩÔøΩ«∞5, price=500, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 5, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=16, pname=ÔøΩÔøΩ«∞4, price=400, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 4, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=15, pname=ÔøΩÔøΩ«∞3, price=300, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 3, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=14, pname=ÔøΩÔøΩ«∞2, price=200, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 2, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=13, pname=ÔøΩÔøΩ«∞1, price=100, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 1, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
+2025-01-12 20:24:43.881 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=12, pname=ÔøΩÔøΩ«∞0, price=0, pdesc=ÔøΩÔøΩ«∞ÔøΩÔøΩÔøΩÔøΩ 0, delFlag=false, files=[], uploadFileNames=[IMAGE1.jpg])
 2025-01-12 20:24:43.884 INFO  [Test worker] l.log4j2 - 1. Connection.getAutoCommit() returned true
 2025-01-12 20:24:43.884 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(false) returned 
 2025-01-12 20:24:43.886 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
@@ -31024,9 +31047,9 @@ p1_0.pno=11  {executed in 0 ms}
 2025-01-12 20:24:43.886 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.886 INFO  [Test worker] l.log4j2 - 1. ResultSet.getBoolean(2) returned false
 2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(6) returned Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ.
+2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(6) returned ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ.
 2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(7) returned ªı∑ŒøÓ ªÛ«∞
+2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(7) returned ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞
 2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.getInt(8) returned 1000
 2025-01-12 20:24:43.887 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -31043,7 +31066,7 @@ p1_0.pno=11  {executed in 0 ms}
 |----|---------|------------|-----------------------------------------------|----|-------------|---------|---------|
 |pno |del_flag |product_pno |file_name                                      |ord |pdesc        |pname    |price    |
 |----|---------|------------|-----------------------------------------------|----|-------------|---------|---------|
-|11  |false    |11          |74c65181-c36c-42af-8843-941759409be9_Test1.jpg |0   |Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ. |ªı∑ŒøÓ ªÛ«∞   |1000     |
+|11  |false    |11          |74c65181-c36c-42af-8843-941759409be9_Test1.jpg |0   |ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ. |ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞   |1000     |
 |11  |[unread] |11          |49830ac8-0b39-43d8-96dd-38d60e20f867_Test2.jpg |1   |[unread]     |[unread] |[unread] |
 |----|---------|------------|-----------------------------------------------|----|-------------|---------|---------|
 
@@ -31057,20 +31080,20 @@ p1_0.pno=11  {executed in 0 ms}
 2025-01-12 20:24:43.890 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(true) returned 
 2025-01-12 20:24:43.890 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
 2025-01-12 20:24:43.890 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-12 20:24:43.890 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=11, pname=ªı∑ŒøÓ ªÛ«∞, price=1000, pdesc=Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ., delFlag=false, files=[], uploadFileNames=[74c65181-c36c-42af-8843-941759409be9_Test1.jpg, 49830ac8-0b39-43d8-96dd-38d60e20f867_Test2.jpg])
+2025-01-12 20:24:43.890 INFO  [Test worker] o.z.m.s.ProductServiceTests - ProductDTO(pno=11, pname=ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞, price=1000, pdesc=ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ., delFlag=false, files=[], uploadFileNames=[74c65181-c36c-42af-8843-941759409be9_Test1.jpg, 49830ac8-0b39-43d8-96dd-38d60e20f867_Test2.jpg])
 2025-01-12 20:24:43.890 INFO  [Test worker] o.z.m.s.ProductServiceTests - [74c65181-c36c-42af-8843-941759409be9_Test1.jpg, 49830ac8-0b39-43d8-96dd-38d60e20f867_Test2.jpg]
 2025-01-12 20:24:43.893 INFO  [Test worker] l.log4j2 - 1. Connection.getAutoCommit() returned true
 2025-01-12 20:24:43.893 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(false) returned 
 2025-01-12 20:24:43.893 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
 2025-01-12 20:24:43.893 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_product (del_flag,pdesc,pname,price) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3f58e7d5
 2025-01-12 20:24:43.893 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
-2025-01-12 20:24:43.893 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ.") returned 
-2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ªı∑ŒøÓ ªÛ«∞") returned 
+2025-01-12 20:24:43.893 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(2, "ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ.") returned 
+2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞") returned 
 2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setInt(4, 1000) returned 
-2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'Ω≈±‘ √ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ.','ªı∑ŒøÓ ªÛ«∞',1000)  {executed in 0 ms}
+2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩ≈±ÔøΩ ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ.','ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞',1000)  {executed in 0 ms}
 2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
-2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'Ω≈±‘ 
-√ﬂ∞° ªÛ«∞¿‘¥œ¥Ÿ.','ªı∑ŒøÓ ªÛ«∞',1000)  {executed in 0 ms}
+2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_product (del_flag,pdesc,pname,price) values (0,'ÔøΩ≈±ÔøΩ 
+ÔøΩﬂ∞ÔøΩ ÔøΩÔøΩ«∞ÔøΩ‘¥œ¥ÔøΩ.','ÔøΩÔøΩÔøΩŒøÔøΩ ÔøΩÔøΩ«∞',1000)  {executed in 0 ms}
 2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4ed343ea
 2025-01-12 20:24:43.895 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -31143,7 +31166,7 @@ t1_0.tno=101  {executed in 0 ms}
 2025-01-12 20:24:43.909 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.909 INFO  [Test worker] l.log4j2 - 1. ResultSet.getDate(3) returned 2024-12-04
 2025-01-12 20:24:43.909 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
-2025-01-12 20:24:43.909 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned º≠∫ÒΩ∫ ≈◊Ω∫∆Æ
+2025-01-12 20:24:43.909 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(4) returned ÔøΩÔøΩÔøΩÔøΩ ÔøΩ◊ΩÔøΩ∆Æ
 2025-01-12 20:24:43.909 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
 2025-01-12 20:24:43.909 INFO  [Test worker] l.log4j2 - 1. ResultSet.getString(5) returned tester
 2025-01-12 20:24:43.909 INFO  [Test worker] l.log4j2 - 1. ResultSet.wasNull() returned false
@@ -31151,7 +31174,7 @@ t1_0.tno=101  {executed in 0 ms}
 |---------|---------|-----------|--------|-------|
 |tno      |complete |due_date   |title   |writer |
 |---------|---------|-----------|--------|-------|
-|[unread] |false    |2024-12-04 |º≠∫ÒΩ∫ ≈◊Ω∫∆Æ |tester |
+|[unread] |false    |2024-12-04 |ÔøΩÔøΩÔøΩÔøΩ ÔøΩ◊ΩÔøΩ∆Æ |tester |
 |---------|---------|-----------|--------|-------|
 
 2025-01-12 20:24:43.910 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned false
@@ -31164,7 +31187,7 @@ t1_0.tno=101  {executed in 0 ms}
 2025-01-12 20:24:43.978 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(true) returned 
 2025-01-12 20:24:43.978 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
 2025-01-12 20:24:43.978 INFO  [Test worker] l.log4j2 - 1. Connection.clearWarnings() returned 
-2025-01-12 20:24:43.978 INFO  [Test worker] o.z.m.s.TodoServiceTests - TodoDTO(tno=101, title=º≠∫ÒΩ∫ ≈◊Ω∫∆Æ, writer=tester, complete=false, dueDate=2024-12-04)
+2025-01-12 20:24:43.978 INFO  [Test worker] o.z.m.s.TodoServiceTests - TodoDTO(tno=101, title=ÔøΩÔøΩÔøΩÔøΩ ÔøΩ◊ΩÔøΩ∆Æ, writer=tester, complete=false, dueDate=2024-12-04)
 2025-01-12 20:24:43.981 INFO  [Test worker] l.log4j2 - 1. Connection.getAutoCommit() returned true
 2025-01-12 20:24:43.981 INFO  [Test worker] l.log4j2 - 1. Connection.setAutoCommit(false) returned 
 2025-01-12 20:24:43.982 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
@@ -31340,13 +31363,13 @@ by t1_0.tno desc limit 10,10  {executed in 0 ms}
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. Connection.prepareStatement(insert into tbl_todo (complete,due_date,title,writer) values (?,?,?,?), 1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6e1134e1
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setBoolean(1, false) returned 
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setDate(2, 2024-12-04) returned 
-2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "º≠∫ÒΩ∫ ≈◊Ω∫∆Æ") returned 
+2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(3, "ÔøΩÔøΩÔøΩÔøΩ ÔøΩ◊ΩÔøΩ∆Æ") returned 
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.setString(4, "tester") returned 
-2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. insert into tbl_todo (complete,due_date,title,writer) values (0,'12/04/2024 00:00:00.000','º≠∫ÒΩ∫ 
-≈◊Ω∫∆Æ','tester')  {executed in 0 ms}
+2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. insert into tbl_todo (complete,due_date,title,writer) values (0,'12/04/2024 00:00:00.000','ÔøΩÔøΩÔøΩÔøΩ 
+ÔøΩ◊ΩÔøΩ∆Æ','tester')  {executed in 0 ms}
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.executeUpdate() returned 1
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. getGeneratedKeys on query: insert into tbl_todo (complete,due_date,title,writer) values (0,'12/04/2024 
-00:00:00.000','º≠∫ÒΩ∫ ≈◊Ω∫∆Æ','tester')  {executed in 0 ms}
+00:00:00.000','ÔøΩÔøΩÔøΩÔøΩ ÔøΩ◊ΩÔøΩ∆Æ','tester')  {executed in 0 ms}
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. ResultSet.new ResultSet returned 
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. PreparedStatement.getGeneratedKeys() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3f02095
 2025-01-12 20:24:44.002 INFO  [Test worker] l.log4j2 - 1. ResultSet.next() returned true
@@ -32443,7 +32466,7 @@ t1_0.tno=33  {executed in 1 ms}
 2025-01-12 20:45:04.474 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection closed. {executed in 0ms} 
 2025-01-12 20:45:04.475 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection.close() returned 
 2025-01-12 20:45:04.475 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-01-12 20:46:12.909 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 27240 (started by ±Ëº∫¿∫ in C:\Users\±Ëº∫¿∫\Documents\mallapi)
+2025-01-12 20:46:12.909 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 27240 (started by ÔøΩËº∫ÔøΩÔøΩ in C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi)
 2025-01-12 20:46:12.910 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 20:46:12.925 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2025-01-12 20:46:13.006 INFO  [Thread-27] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -32803,7 +32826,7 @@ t1_0.tno=33  {executed in 1 ms}
 2025-01-12 20:46:15.914 INFO  [Test worker] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-01-12 20:46:16.244 INFO  [Test worker] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
 2025-01-12 20:46:16.900 INFO  [Test worker] o.z.m.u.CustomFileUtil - -------------------------------------
-2025-01-12 20:46:16.900 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\±Ëº∫¿∫\Documents\mallapi\upload
+2025-01-12 20:46:16.900 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi\upload
 2025-01-12 20:46:17.085 WARN  [Test worker] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-01-12 20:46:17.308 INFO  [Test worker] o.z.m.c.CustomSecurityConfig - ---------------------security config---------------------------
 2025-01-12 20:46:17.406 INFO  [Test worker] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5100fe55, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ef97efc, org.springframework.security.web.context.SecurityContextHolderFilter@1320d929, org.springframework.security.web.header.HeaderWriterFilter@6a73b74c, org.springframework.web.filter.CorsFilter@46244e65, org.springframework.security.web.authentication.logout.LogoutFilter@4ec25389, org.zerock.mallapi.security.filter.JWTCheckFilter@20c1cb0c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e822394, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cc91654, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ae2f5b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76e56b17, org.springframework.security.web.session.SessionManagementFilter@4c58212, org.springframework.security.web.access.ExceptionTranslationFilter@57f8a3cf]
@@ -32870,7 +32893,7 @@ t1_0.tno=33  {executed in 0 ms}
 2025-01-12 20:46:19.186 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection closed. {executed in 0ms} 
 2025-01-12 20:46:19.186 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection.close() returned 
 2025-01-12 20:46:19.186 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-01-12 20:52:11.704 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 5916 (started by ±Ëº∫¿∫ in C:\Users\±Ëº∫¿∫\Documents\mallapi)
+2025-01-12 20:52:11.704 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 5916 (started by ÔøΩËº∫ÔøΩÔøΩ in C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi)
 2025-01-12 20:52:11.706 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 20:52:12.024 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2025-01-12 20:52:12.100 INFO  [Thread-31] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -33230,7 +33253,7 @@ t1_0.tno=33  {executed in 0 ms}
 2025-01-12 20:52:14.525 INFO  [Test worker] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-01-12 20:52:14.830 INFO  [Test worker] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
 2025-01-12 20:52:15.523 INFO  [Test worker] o.z.m.u.CustomFileUtil - -------------------------------------
-2025-01-12 20:52:15.523 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\±Ëº∫¿∫\Documents\mallapi\upload
+2025-01-12 20:52:15.523 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi\upload
 2025-01-12 20:52:15.698 WARN  [Test worker] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-01-12 20:52:15.962 INFO  [Test worker] o.z.m.c.CustomSecurityConfig - ---------------------security config---------------------------
 2025-01-12 20:52:16.047 INFO  [Test worker] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26415b5e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61761e60, org.springframework.security.web.context.SecurityContextHolderFilter@6d985720, org.springframework.security.web.header.HeaderWriterFilter@72de1d86, org.springframework.web.filter.CorsFilter@7aca4144, org.springframework.security.web.authentication.logout.LogoutFilter@358f85b1, org.zerock.mallapi.security.filter.JWTCheckFilter@a19fe87, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@60bd11f7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f94b2a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@408f3054, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26aecf31, org.springframework.security.web.session.SessionManagementFilter@524250ec, org.springframework.security.web.access.ExceptionTranslationFilter@1320d929]
@@ -33308,7 +33331,7 @@ t1_0.tno=33  {executed in 0 ms}
 2025-01-12 20:52:17.882 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection closed. {executed in 0ms} 
 2025-01-12 20:52:17.882 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection.close() returned 
 2025-01-12 20:52:17.882 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-01-12 20:53:56.752 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 42180 (started by ±Ëº∫¿∫ in C:\Users\±Ëº∫¿∫\Documents\mallapi)
+2025-01-12 20:53:56.752 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 42180 (started by ÔøΩËº∫ÔøΩÔøΩ in C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi)
 2025-01-12 20:53:56.754 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 20:53:57.037 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2025-01-12 20:53:57.113 INFO  [Thread-35] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -33668,7 +33691,7 @@ t1_0.tno=33  {executed in 0 ms}
 2025-01-12 20:53:59.935 INFO  [Test worker] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-01-12 20:54:00.362 INFO  [Test worker] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
 2025-01-12 20:54:01.055 INFO  [Test worker] o.z.m.u.CustomFileUtil - -------------------------------------
-2025-01-12 20:54:01.055 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\±Ëº∫¿∫\Documents\mallapi\upload
+2025-01-12 20:54:01.055 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi\upload
 2025-01-12 20:54:01.250 WARN  [Test worker] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-01-12 20:54:01.459 INFO  [Test worker] o.z.m.c.CustomSecurityConfig - ---------------------security config---------------------------
 2025-01-12 20:54:01.543 INFO  [Test worker] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@61761e60, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7aca4144, org.springframework.security.web.context.SecurityContextHolderFilter@2d1dbf4f, org.springframework.security.web.header.HeaderWriterFilter@9124278, org.springframework.web.filter.CorsFilter@a19fe87, org.springframework.security.web.authentication.logout.LogoutFilter@2b01bb54, org.zerock.mallapi.security.filter.JWTCheckFilter@26aecf31, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@693f9ab5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f26634a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a64cb1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77fa509a, org.springframework.security.web.session.SessionManagementFilter@7432cb37, org.springframework.security.web.access.ExceptionTranslationFilter@3b5d0c4d]
@@ -33735,7 +33758,7 @@ t1_0.tno=33  {executed in 1 ms}
 2025-01-12 20:54:03.453 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection closed. {executed in 0ms} 
 2025-01-12 20:54:03.453 INFO  [HikariPool-1 connection closer] l.log4j2 - 10. Connection.close() returned 
 2025-01-12 20:54:03.453 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-01-12 20:54:15.410 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 6504 (started by ±Ëº∫¿∫ in C:\Users\±Ëº∫¿∫\Documents\mallapi)
+2025-01-12 20:54:15.410 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 6504 (started by ÔøΩËº∫ÔøΩÔøΩ in C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi)
 2025-01-12 20:54:15.412 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 20:54:15.821 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2025-01-12 20:54:15.894 INFO  [Thread-39] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -34095,7 +34118,7 @@ t1_0.tno=33  {executed in 1 ms}
 2025-01-12 20:54:18.414 INFO  [Test worker] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-01-12 20:54:18.762 INFO  [Test worker] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
 2025-01-12 20:54:19.543 INFO  [Test worker] o.z.m.u.CustomFileUtil - -------------------------------------
-2025-01-12 20:54:19.544 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\±Ëº∫¿∫\Documents\mallapi\upload
+2025-01-12 20:54:19.544 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi\upload
 2025-01-12 20:54:19.736 WARN  [Test worker] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-01-12 20:54:19.974 INFO  [Test worker] o.z.m.c.CustomSecurityConfig - ---------------------security config---------------------------
 2025-01-12 20:54:20.077 INFO  [Test worker] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a7b4b19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26415b5e, org.springframework.security.web.context.SecurityContextHolderFilter@7602da1a, org.springframework.security.web.header.HeaderWriterFilter@456c6754, org.springframework.web.filter.CorsFilter@61761e60, org.springframework.security.web.authentication.logout.LogoutFilter@d56d9f6, org.zerock.mallapi.security.filter.JWTCheckFilter@7aca4144, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@147a8d7c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d1dbf4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2810d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a19fe87, org.springframework.security.web.session.SessionManagementFilter@9124278, org.springframework.security.web.access.ExceptionTranslationFilter@1508bc71]
@@ -34201,7 +34224,7 @@ t1_0.tno=33  {executed in 0 ms}
 2025-01-12 20:54:45.979 INFO  [restartedMain] o.z.m.MallapiApplication - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 20:54:46.129 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2025-01-12 20:54:46.149 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 5 JPA repository interfaces.
-2025-01-12 20:54:46.193 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 37644 (started by ±Ëº∫¿∫ in C:\Users\±Ëº∫¿∫\Documents\mallapi)
+2025-01-12 20:54:46.193 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - Starting TodoRepositoryTests using Java 17.0.13 with PID 37644 (started by ÔøΩËº∫ÔøΩÔøΩ in C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi)
 2025-01-12 20:54:46.194 INFO  [Test worker] o.z.m.r.TodoRepositoryTests - No active profile set, falling back to 1 default profile: "default"
 2025-01-12 20:54:46.242 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8081 (http)
 2025-01-12 20:54:46.242 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
@@ -34533,7 +34556,7 @@ t1_0.tno=33  {executed in 0 ms}
 2025-01-12 20:54:49.154 INFO  [Test worker] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-01-12 20:54:49.443 INFO  [Test worker] o.s.d.j.r.q.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
 2025-01-12 20:54:50.112 INFO  [Test worker] o.z.m.u.CustomFileUtil - -------------------------------------
-2025-01-12 20:54:50.112 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\±Ëº∫¿∫\Documents\mallapi\upload
+2025-01-12 20:54:50.112 INFO  [Test worker] o.z.m.u.CustomFileUtil - C:\Users\ÔøΩËº∫ÔøΩÔøΩ\Documents\mallapi\upload
 2025-01-12 20:54:50.299 WARN  [Test worker] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-01-12 20:54:50.536 INFO  [Test worker] o.z.m.c.CustomSecurityConfig - ---------------------security config---------------------------
 2025-01-12 20:54:50.664 INFO  [Test worker] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bcf2780, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bb4adf7, org.springframework.security.web.context.SecurityContextHolderFilter@537360e3, org.springframework.security.web.header.HeaderWriterFilter@2a64cb1f, org.springframework.web.filter.CorsFilter@11544ddd, org.springframework.security.web.authentication.logout.LogoutFilter@20c1cb0c, org.zerock.mallapi.security.filter.JWTCheckFilter@38e46ea, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77fa509a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ec25389, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b5f91a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@116f823c, org.springframework.security.web.session.SessionManagementFilter@76aab1e3, org.springframework.security.web.access.ExceptionTranslationFilter@9124278]
